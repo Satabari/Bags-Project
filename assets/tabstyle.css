@@ -22,32 +22,32 @@
         background-color: #FFFFFF;
       }
     
-      #navbar_supported_content {
-        margin: 10px;
-        position: unset;
-        top: auto;
-      }
-        
-      .navbar-nav {
-        width: 100%;
-        border-top: 1px solid #000000;
-        border-bottom: 1px solid #000000;
-        justify-content: space-between;
-        
-      }
-    
-      .nav-item {
-        border: 0px 20px;
-        display: inline-block;
-        background-color: #FFFFFF;
-      }
-    
-      .nav-item a {
-        padding-left: 15px;
-        padding-right: 15px;
-        display: inline-block;
-        color: #964B00;
-      }
+    #navbar_supported_content {
+      margin: 10px;
+      position: unset;
+      top: auto;
+    }
+      
+    .navbar-nav {
+      width: 100%;
+      border-top: 1px solid #000000;
+      border-bottom: 1px solid #000000;
+      justify-content: space-between;
+      
+    }
+  
+    .nav-item {
+      border: 0px 20px;
+      display: inline-block;
+      background-color: #FFFFFF;
+    }
+  
+    .nav-item a {
+      padding-left: 15px;
+      padding-right: 15px;
+      display: inline-block;
+      color: #964B00;
+    }
 
     #form_inline{
       border: 1px solid #D3D3D3;
@@ -66,24 +66,58 @@
       display: none;
     }
 
-    /*#banner_logo{
-        margin-top: 80px;
-        width: 70%;
+    .banner-one{
+      display: none;
+    }
+
+    .banner-two{
+      margin-top: 30px;
+      display: inline-flexbox;
+      justify-content: space-evenly;
+    }
+
+    .container {
+      position: relative;
+      margin-top: 0px;
+    }
+
+    .banner-two{
+      content: "";
+      display: table;
+      clear: both;
       }
-  
-    #list_bag_item{
-        width: 30%;
+
+    .banner-list{
+      float:left;
+      height:250px;
+      padding:0 10px;
     }
 
-    column-two {
-       
-        float: left;
-    }
+    #banner_left{ 
+      width: 50%;
+    } 
+
+    #column_right{ 
+      background-color: #FFFFFF;
+    } 
     
-    .banner::after {
-        content: "";
-        clear: both;
-        display: table;
+    .list-item{
+      position: relative;
+      border: 2px 2px solid #964B00;
+    }
 
-    }*/
+    .list-head{
+      list-style-type: none;
+      padding-left: 12px;
+      background-color: #964B00;
+      color: #FFFFFF;
+    }
+
+    .list-details{
+      list-style-image: url("/assets/images/diamond-point.png");
+      margin-bottom: 1px;
+    }
+
+
+
 }
