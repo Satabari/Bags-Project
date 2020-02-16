@@ -1,0 +1,140 @@
+ * {
+    padding: 0;
+    margin: 0;
+  }
+  
+  a,
+  a:hover {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    background-color: #000000;
+    padding: 20px 0;
+  }
+
+  #navbar_logo {
+    height: 25px;
+    padding-left: 10px;
+  }
+  
+  #navbar_supported_content {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    top: 40px;
+  }
+      
+  .navbar-nav {
+    border-bottom: 1px solid #964B00;
+    text-align: center;
+  }
+  
+  .navbar-toggler-icon {
+    position: absolute;
+    right: 8px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .nav-item {
+    background-color: #964B00;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  
+  .nav-item:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+  }
+  
+  .nav-item a {
+    color: #FFFFFF;
+  }
+  
+  .nav-item:hover a {
+    color: #964B00;
+  }
+
+  #bag_logo{
+        width: 70px;
+  }
+
+  #search_icon{
+        width: 25px;
+        height: 20px;
+        right: 20px;
+        margin: 5px 5px;
+    }
+
+  #logo_two{
+    display: flex;
+    padding-bottom: 2px solid #D3D3D3;
+  }
+
+  #column_one{
+    display: flex;
+    justify-content: left;
+    padding-right: 100px;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-bottom: 8px;
+  }
+
+  #container{
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+    padding-left: 100px;
+    padding-top: 10px;
+    border-bottom: 8px;
+  }
+
+  /* .content
+  {
+    display: none;
+  }
+
+  #content.open
+  {
+    display: inline-block;
+  } */
+
+  .dropdown{
+    border-left: 5px;
+    border-right: 5px;
+    padding: 10px 15px;
+  }
+
+  #dropdown_toggle{
+    background-color: #964B00;
+    width: 100%;
+    
+  }
+
+  .dropdown-menu{
+    z-index: 1;
+    margin: 2px 18px;
+    background-color: #964B00;
+    border-bottom: 1px solid #964B00;
+  }
+
+  .dropdown-item{
+    margin-left: 5px;
+    color: #FFFFFF;
+  }
+
+  @media (max-width: 480px){
+    #logo_one{
+        display: none;
+    }
+    
+        #form_inline{
+            display: none;
+    }
+
+    #list_bag_item{
+      display: none;
+    }
+  }

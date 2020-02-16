@@ -1,0 +1,85 @@
+@media (min-width: 481px) {
+
+    #bag_logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    #logo_one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        
+      }
+    
+    #logo_two{
+        display: none;
+    }
+
+    .navbar {
+        padding: 0;
+        background-color: #FFFFFF;
+      }
+    
+      #navbar_supported_content {
+        margin: 10px;
+        position: unset;
+        top: auto;
+      }
+        
+      .navbar-nav {
+        width: 100%;
+        border-top: 1px solid #000000;
+        border-bottom: 1px solid #000000;
+        justify-content: space-between;
+        
+      }
+    
+      .nav-item {
+        border: 0px 20px;
+        display: inline-block;
+        background-color: #FFFFFF;
+      }
+    
+      .nav-item a {
+        padding-left: 15px;
+        padding-right: 15px;
+        display: inline-block;
+        color: #964B00;
+      }
+
+    .drop-down{
+        display: none;
+    }
+
+    #form_inline{
+      border: 1px solid #D3D3D3;
+    }
+
+    .form-control{
+      margin: 0px;
+      border: 0px;
+    }
+
+    /*#banner_logo{
+        margin-top: 80px;
+        width: 70%;
+      }
+  
+    #list_bag_item{
+        width: 30%;
+    }
+
+    column-two {
+       
+        float: left;
+    }
+    
+    .banner::after {
+        content: "";
+        clear: both;
+        display: table;
+
+    }*/
+}
