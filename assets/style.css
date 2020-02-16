@@ -91,15 +91,15 @@
     border-bottom: 8px;
   }
 
-  /* .content
+  #close
   {
     display: none;
   }
 
-  #content.open
+  #open
   {
     display: inline-block;
-  } */
+  }
 
   .dropdown{
     border-left: 5px;

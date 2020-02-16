@@ -1,11 +1,11 @@
-var content = document.getElementById("content");
+var content = document.getElementsByClassName("content");
 var button = document.getElementById("search_icon")
 
 button.onclick = function() {
-    if(content.className == "open"){
-        content.className="";
+    if(content.id == "open"){
+        content.id = "";
     }
     else{
-        content.className = "open";
+        content.id = "open";
     }
 }
