@@ -70,7 +70,7 @@
 
   #logo_two{
     display: flex;
-    padding-bottom: 2px solid #D3D3D3;
+    
   }
 
   #column_one{
@@ -96,6 +96,16 @@
     background-color: #FFFFFF;
   }
 
+  .border-header { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
   .content-close
   {
     display: none;
@@ -104,31 +114,43 @@
   .content-open
   {
     display: inline-flexbox;
-    margin: 10px 10px;
+    margin: 2px 10px;
     border: 2px 10px;
+    position: absolute;
+    z-index: 1;
   }
 
   .search-bar{
     display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .dropdown{
+    border-top: 10px;
     border-left: 5px;
     border-right: 5px;
-    padding: 10px 15px;
+    padding: 2px 15px;
   }
 
   #dropdown_toggle{
     background-color: #964B00;
     width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
     
   }
 
+
   .dropdown-menu{
     z-index: 1;
-    margin: 2px 18px;
+    border-top: 10px;
+    border-left: 5px;
+    border-right: 5px;
     background-color: #964B00;
     border-bottom: 1px solid #964B00;
+    width: 90%;
   }
 
   .dropdown-item{
