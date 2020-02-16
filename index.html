@@ -26,7 +26,7 @@
 
     <body>
 
-        <header>
+        <header class="body-header">
             <div class="logo-one" id="logo_one">
                 <img src="assets/images/logo.png" alt="bag-logo" id="bag_logo">
             </div>
@@ -60,22 +60,23 @@
                 </div>
               </nav>
 
-             <div class="logo-two" id="logo_two">
+            <div class="logo-two" id="logo_two">
                 <div class="column" id="column_one">
                     <img src="assets/images/logo.png" alt="bag-logo" id="bag_logo">
                 </div>
                 <div class="column" id="container">
-                    <input type="image" src="assets/images/search-icon.png" alt="search-icon" id="search_icon">
+                    <button class="search-button" onclick="searchFunction() ">
+                        <input type="image" src="assets/images/search-icon.png" alt="search-icon" id="search_icon">
+                    </button>
                 </div>
+            </div>
         </header>
         
-        <div class="content" id="close">
-            <form>
-                <input type="text" placeholder="Search for bags">
+        <div class="content-close" id="search_content">
+            <form class="search-form">
+                <input class="search-bar" type="text" size="30" placeholder="Search for bags">
             </form>
         </div>
-        </div>
-        <script src="form.js"></script>
         <section class="drop-down" id="drop_down">
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_toggle" 
@@ -95,5 +96,16 @@
         
           
     </body>
+    <script>
+        var content = document.getElementById("search_content");
+        function searchFunction(){
+            if(content.className == "content-close"){
+                content.className = "content-open";
+            }
+            else{
+                content.className = "content-close";
+            }
+        }
+    </script>
 
 </html>
