@@ -183,6 +183,70 @@
     color: #000000;
   }
 
+  .sales-label{
+    padding-left: 10px;
+    text-align: left;
+    z-index: 1;
+  }
+
+  .product-header { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-style: inset;
+    border-width: 1px;
+  } 
+
+  .product-list{
+    position: relative;
+    margin: 20px 20px;
+    border: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .bag-image{
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .product-details {
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    background-color: #964B00;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .bag-name{
+    float: left;
+  }
+
+  .bag-price{
+    float: right;
+  }
+
+  .information-text{
+    text-align: center;
+    margin-top: 10px;
+    border: 20px 0px;
+  }
+
+  .information-heading{
+    display: inline;
+    padding: 10px 10px;
+  }
+
+
   @media (max-width: 480px){
     #logo_one{
         display: none;

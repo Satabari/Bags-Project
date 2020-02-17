@@ -11,4 +11,8 @@
     .list-details{
         font-size: 15px;
     }
+
+    .product-details{
+        width: 80%;
+      }
 }
