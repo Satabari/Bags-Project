@@ -216,8 +216,7 @@
   .product-details {
     position: absolute;
     bottom: 0px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
     width: 75%;
     background-color: #964B00;
     color: #FFFFFF;
@@ -225,6 +224,7 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-right: 5px;
+    z-index: 1;
   }
 
   .bag-name{
