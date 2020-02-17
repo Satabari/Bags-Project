@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+
+    #banner_left{
+        height: 270px;
+    }
+
+    #left_banner{
+        height: 270px;
+    }
+
+    .list-details{
+        font-size: 15px;
+    }
+}

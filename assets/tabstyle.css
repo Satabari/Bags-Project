@@ -70,54 +70,60 @@
       display: none;
     }
 
-    .banner-two{
-      margin-top: 30px;
-      display: inline-flexbox;
+    .row{
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      border-bottom: 0px;
+      padding: 4px 4px;
+      display: flex;
       justify-content: space-evenly;
-    }
-
-    .container {
-      position: relative;
-      margin-top: 0px;
-    }
-
-    .banner-two{
-      content: "";
-      display: table;
-      clear: both;
       }
 
-    .banner-list{
-      float:left;
-      height:250px;
-      padding:0 10px;
+    #banner_left{
+      border-bottom: 0;
+      margin-bottom: 0px;
+      margin-right: 10px;
+      padding:0 0px;
+      border-right: 20px;
+      border-left: 10px;
+      position: relative;
+      bottom: 0px;
+      height: 240px;
     }
 
-    #banner_left{ 
-      width: 50%;
-    } 
+    #left_banner{
+      height: 240px;
+    }
 
-    #column_right{ 
-      background-color: #FFFFFF;
-    } 
-    
-    .list-item{
-      position: relative;
-      border: 2px 2px solid #964B00;
+    #banner_right{ 
+      margin: 5px 5px solid #964B00;
+      padding: 0 2px;
     }
 
     .list-head{
       list-style-type: none;
-      padding-left: 12px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin: 0px 10px;
+      border: 0px 0px;
       background-color: #964B00;
       color: #FFFFFF;
     }
-
+    
     .list-details{
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin: 0px 10px;
+      border: 0px 0px;
+      font-size: 12px;
+      background-color: #FFFFFF;
+      color: #000000;
       list-style-image: url("/assets/images/diamond-point.png");
       margin-bottom: 1px;
     }
-
-
-
 }
+  

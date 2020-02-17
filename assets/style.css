@@ -82,7 +82,7 @@
     
   }
 
-  #ccolumn_two{
+  #column_two{
     display: flex;
     justify-content: right;
     padding-right: 10px;
@@ -196,7 +196,7 @@
       display: none;
     }
 
-    .banner-two{
+    .row{
       display: none;
     }
   }
