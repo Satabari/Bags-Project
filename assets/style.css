@@ -246,6 +246,91 @@
     margin-bottom: 10px;
   }
 
+  .information-details{
+    padding: 10px 10px;
+    word-spacing: 5px;
+    white-space: 5px;
+  }
+
+  .before-footer{
+    background-color: #964B00;
+    color: #FFFFFF;
+  }
+
+  .link-header{
+    margin-top: 10px;
+    margin-left: 12px;
+    border-top: 10px;
+    padding-top: 10px;
+ }
+
+  .link-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+.link-details {
+    float: left;
+  }
+  
+  .link-details a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+
+  .enter-email{
+    margin-left: 12px;
+  }
+
+  .subscribe {
+    background-color: #E68A00;
+    border: none;
+    color: white;
+    padding: 4px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 12px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .image-left{
+    float: left;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 10px;
+  }
+
+
+  .caption a {
+    display: block;
+    font-size: 15px;
+    margin: 5px 10px;
+    padding-left: 5px;
+    color: #FFFFFF;
+    border-bottom: 10px;
+  }
+
+  .contact-details{
+    list-style: none;
+    display: block;
+  }
+
+  .contact-details::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
 
   @media (max-width: 480px){
     #logo_one{
