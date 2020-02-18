@@ -280,7 +280,6 @@
     display: inline-block;
     color: white;
     text-align: center;
-    margin-left: 10px;
     padding: 10px 10px;
     text-decoration: none;
   }
@@ -290,6 +289,7 @@
   }
 
   .subscribe {
+    display: inline-block;
     background-color: #E68A00;
     border: none;
     color: white;
@@ -331,6 +331,13 @@
     display: block;
   }
 
+  .footer{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 10px;
+  }
 
   @media (max-width: 480px){
     #logo_one{

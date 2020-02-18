@@ -146,5 +146,42 @@
     .product-details{
       width: 90%;
     }
+
+    .before-footer{
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .three-side{
+      background-color: #964B00;
+      color: #FFFFFF;
+      width: 100%;
+      margin: 0px 5px;
+      line-height: 30px;
+    }
+
+    .link-details a {
+      margin-left: 10px;
+      padding: 5px 5px;
+    }
+
+    #cap_add{
+      white-space: nowrap;
+      /* display: inline;
+      overflow-x: auto;
+      overflow-y: hidden; */
+    }
+
+    /* #left_side{
+      width: 20%;
+    }
+
+    #middle_side{
+      width: 25%;
+    }
+
+    #right_side{
+      width: 50%;
+    } */
 }
   
