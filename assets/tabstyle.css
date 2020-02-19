@@ -99,12 +99,14 @@
 
     #banner_right{ 
       margin: 5px 5px solid #964B00;
-      padding: 0 0px;
+      padding: 5px;
+      width: 200px;
+      height: 200px;
     }
 
     .list-head{
       list-style-type: none;
-      padding-left: 5px;
+      padding-left: 10px;
       padding-right: 5px;
       margin: 0px 0px;
       border: 0px 0px;
@@ -117,8 +119,9 @@
       padding-bottom: 5px;
       padding-left: 5px;
       padding-right: 5px;
-      margin: 0px 10px solid #964B00;
-      border: 0px 10px;
+      margin-left: 2px solid #964B00;
+      margin-right: 2px solid #964B00;
+      margin-bottom: 2px solid #D3D3D3;
       font-size: 12px;
       background-color: #FFFFFF;
       color: #000000;
