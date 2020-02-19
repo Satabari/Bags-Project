@@ -135,16 +135,12 @@
 
   #dropdown_toggle{
     background-color: #964B00;
-    width: 100%;
-    text-align: right;
-    display: flex;
-    justify-content: flex-end;
-    
+    width: 100%; 
   }
 
 
   .dropdown-menu{
-    z-index: 1;
+    z-index: 3;
     border-top: 10px;
     border-left: 5px;
     border-right: 5px;
@@ -181,6 +177,42 @@
 
   .Delicacy{
     color: #000000;
+  }
+
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    background-color: #F2F2F2;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+  }
+  
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    background-color: #F2F2F2;
+  }
+
+  .follow_links{
+    background-color: #F2F2F2;
+    width: 20px;
+  }
+
+  .image-follow{
+    height: 30px;
+    width: 30px;
+  }
+
+  .follow-heading{
+    background-color: #F2F2F2;
+    padding: 5px 5px;
+    text-align: center;
+    font-size: 10px;
   }
 
   .sales-label{
@@ -318,6 +350,10 @@
     padding-left: 5px;
     color: #FFFFFF;
     border-bottom: 10px;
+  }
+
+  #info_mail{
+    border-bottom: 0px;
   }
 
   .contact-details{

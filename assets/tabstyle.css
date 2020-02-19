@@ -99,14 +99,14 @@
 
     #banner_right{ 
       margin: 5px 5px solid #964B00;
-      padding: 0 2px;
+      padding: 0 0px;
     }
 
     .list-head{
       list-style-type: none;
       padding-left: 5px;
       padding-right: 5px;
-      margin: 0px 10px;
+      margin: 0px 0px;
       border: 0px 0px;
       background-color: #964B00;
       color: #FFFFFF;
@@ -117,14 +117,25 @@
       padding-bottom: 5px;
       padding-left: 5px;
       padding-right: 5px;
-      margin: 0px 10px;
-      border: 0px 0px;
+      margin: 0px 10px solid #964B00;
+      border: 0px 10px;
       font-size: 12px;
       background-color: #FFFFFF;
       color: #000000;
       list-style-image: url("/assets/images/diamond-point.png");
       margin-bottom: 1px;
     }
+
+    .social-image {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .follow-heading{
+      font-size: 12px;
+    }
+    
+    
 
     .product{
       margin: 5px 5px;
@@ -160,28 +171,44 @@
       line-height: 30px;
     }
 
+    .link-details {
+      float: none;
+    }
+
     .link-details a {
       margin-left: 10px;
       padding: 5px 5px;
     }
 
-    #cap_add{
+    .contact-details{
+      list-style: none;
+      display: inline;
+    }
+
+    .contact-details::after {
+      content: "";
+      clear: both;
+      display: inline;
+    }
+
+    .caption a {
+      margin-right: 2px;
+      padding-right: 2px;
+    }
+
+    /* #bag_address{
       white-space: nowrap;
-      /* display: inline;
+      display: inline;
       overflow-x: auto;
-      overflow-y: hidden; */
-    }
+      overflow-y: hidden;
+    } */
 
-    /* #left_side{
-      width: 20%;
-    }
-
-    #middle_side{
-      width: 25%;
-    }
-
-    #right_side{
-      width: 50%;
+    /* #cap_add{
+      white-space: nowrap;
+      
+      display: inline;
+      overflow-x: auto;
+      overflow-y: hidden;
     } */
 }
   
