@@ -199,6 +199,10 @@
       padding-right: 2px;
     }
 
+    .image-left{
+      margin-bottom: 0px;
+    }
+
     /* #bag_address{
       white-space: nowrap;
       display: inline;
