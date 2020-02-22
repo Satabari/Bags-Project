@@ -158,7 +158,8 @@
     }
 
     .product-details{
-      width: 90%;
+      min-width: 65%;
+      max-width: 100%;
     }
 
     .before-footer{
@@ -197,25 +198,24 @@
     .caption a {
       margin-right: 2px;
       padding-right: 2px;
+      padding-bottom: 2px;
+      font-size: 12px;
     }
 
     .image-left{
       margin-bottom: 0px;
     }
 
-    /* #bag_address{
-      white-space: nowrap;
-      display: inline;
-      overflow-x: auto;
-      overflow-y: hidden;
-    } */
+    #right_side{
+      padding: 0px;
+    }
 
-    /* #cap_add{
-      white-space: nowrap;
-      
-      display: inline;
-      overflow-x: auto;
-      overflow-y: hidden;
-    } */
+    .content-close{
+      display: none;
+    }
+
+    .content-open{
+      display: none;
+    }
 }
   
