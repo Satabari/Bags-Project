@@ -395,7 +395,7 @@
 
   .caption a {
     display: block;
-    font-size: 15px;
+    font-size: 12px;
     margin: 5px 10px;
     padding-left: 5px;
     color: #FFFFFF;
@@ -439,7 +439,7 @@
       display: none;
     }
 
-    .row{
+    .banner-two{
       display: none;
     }
   }
