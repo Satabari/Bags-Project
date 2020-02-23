@@ -141,8 +141,6 @@
       font-size: 12px;
     }
     
-    
-
     .product{
       margin: 5px 5px;
     }
@@ -161,8 +159,11 @@
     }
 
     .product-details{
-      min-width: 65%;
-      max-width: 100%;
+      width: 100%;
+    }
+
+    .bag-image{
+      width: 80%;
     }
 
     .before-footer{

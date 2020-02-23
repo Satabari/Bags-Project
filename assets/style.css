@@ -442,5 +442,8 @@
     .banner-two{
       display: none;
     }
-  }
 
+    .bag-image{
+      width: 65%;
+    }
+  }
