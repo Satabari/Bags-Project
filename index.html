@@ -29,7 +29,7 @@
 
         <header>
             <div class="logo-one" id="logo_one">
-                <img src="assets/images/logo.png" alt="bag-logo" id="bag_logo">
+                <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
             </div>
 
             <nav class="navbar navbar-expand-sm">
@@ -54,7 +54,7 @@
                       <li class="nav-item">
                         <form class="form-inline my-0 my-lg-0" id="form_inline">
                             <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                            <input type="image" src="assets/images/search-icon.png" alt="search-icon" id="search_icon">
+                            <input type="image" src="assets/images/search-icon.png" alt="search-icon" class="search-icon">
                         </form>
                       </li>
                   </ul>
@@ -63,12 +63,13 @@
 
             <div class="logo-two" id="logo_two">
                 <div class="column" id="column_one">
-                    <img src="assets/images/logo.png" alt="bag-logo" id="bag_logo">
+                    <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
                 </div>
                 <div class="column" id="column_two">
-                    <button class="search-button" onclick="searchFunction() ">
-                        <input type="image" src="assets/images/search-icon.png" alt="search-icon" id="search_icon">
-                    </button>
+                    <input type="image" src="/assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
+                    <!-- <button class="search-button" onclick="searchFunction() " type="submit">
+                        <input type="image" src="assets/images/search-icon.png" alt="search-icon" class="search-icon">
+                    </button> -->
                 </div>
             </div>
         </header>
@@ -98,7 +99,7 @@
         </section>
         <section class="banner-one">
             <div class="container">
-                <img src="assets/images/left-banner.png" alt="left-banner" id=left_banner>
+                <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner">
                 <div class="text-block">
                   <h6 class="New-Collection">NEW COLLECTION</h6> 
                   <h2 class="Delicacy">Delicacy</h2>
@@ -108,38 +109,45 @@
         
         <section class="banner-two">
             <div class="col-8" id="banner_left">
-                <img src="assets/images/left-banner.png" alt="left-banner" id=left_banner>
+                <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner">
                 <div class="text-block">
                     <h6 class="New-Collection">NEW COLLECTION</h6> 
                     <h2 class="Delicacy">Delicacy</h2>
                 </div>
             </div>
             <div class="col-4" id="banner_right">
-                <li class="list-head">Bag Collection</li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum dolor
-
-                </li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum dolor
-                </li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum dolor
-                </li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum dolor
-                </li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum dolor
-                </li>
-                <li class="list-details">
-                    <img src="assets/images/diamond-point.png" alt=""> ipsum 
-                </li>
-                <li class="list-details" id="no_border">
-                    <img src="assets/images/diamond-point.png" alt=""> Lorem ipsum dolor
-                </li>
+                <ul class="list-head"><li>Bag Collection</li></ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details" id="no_border">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
             </div>
         </section>
+        <br>
         <section class="follow-links">
             <div class="icon-bar">
                 <h6 class="follow-heading">Follow Us</h6>
@@ -269,19 +277,20 @@
             </div>
         </section>
         <section class="footer">
-            Copyright &copy Bags 2019;
+            Copyright &copy; Bags 2019;
         </section>
+        <script>
+            var content = document.getElementById("search_content");
+            function searchFunction(){
+                if(content.className == "content-close"){
+                    content.className = "content-open";
+                }
+                else{
+                    content.className = "content-close";
+                }
+            }
+        </script>
     </body>
-    <script>
-        var content = document.getElementById("search_content");
-        function searchFunction(){
-            if(content.className == "content-close"){
-                content.className = "content-open";
-            }
-            else{
-                content.className = "content-close";
-            }
-        }
-    </script>
+    
 
 </html>

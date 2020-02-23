@@ -1,18 +1,24 @@
 @media (min-width: 800px) {
 
-    #banner_left{
-        height: 270px;
-    }
-
-    #left_banner{
-        height: 270px;
-    }
-
-    .list-details{
-        font-size: 15px;
+    .banner-left{
+        display: flex;
+        justify-content: flex-end;
     }
 
     .product-details{
         width: 80%;
       }
+}
+
+@media (min-width: 801px) {
+
+    .left-banner{
+        max-width: 900px ;
+    }
+
+    .list-details{
+       padding-top: 5px;
+       padding-bottom: 5px;
+    }
+
 }

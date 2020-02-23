@@ -57,16 +57,18 @@
     color: #964B00;
   }
 
-  #bag_logo{
+  .bag-logo{
         width: 70px;
   }
 
-  #search_icon{
+  .search-icon{
         width: 25px;
         height: 20px;
         right: 20px;
         
     }
+
+
 
   .nav-item form{
     margin-right: 5px;
@@ -128,7 +130,8 @@
 
   .content-open
   {
-    display: inline-flexbox;
+    /* display: inline-flexbox; */
+    display: inline;
     margin: 2px 10px;
     border: 2px 10px;
     position: absolute;
@@ -163,7 +166,7 @@
     border-left: 5px;
     border-right: 5px;
     background-color: #964B00;
-    border-bottom: 1px solid #964B00;
+    border-bottom: 1px;
     width: 90%;
   }
 
@@ -172,7 +175,7 @@
     color: #FFFFFF;
   }
 
-  #left_banner{
+  .left-banner{
     width: 100%;
     max-width: 660px;
   }
@@ -210,7 +213,7 @@
   }
   
   .icon-bar a {
-    display: block;
+    display: flex;
     text-align: center;
     padding: 5px;
     transition: all 0.3s ease;
@@ -280,7 +283,7 @@
     justify-content: space-between;
     min-width: 65%;
     max-width: 80%;
-    font-size-adjust: 10px;
+    /* font-size-adjust: 10px; */
   }
 
   .bag-name{
@@ -328,7 +331,7 @@
   .information-details{
     padding: 10px 10px;
     word-spacing: 5px;
-    white-space: 5px;
+    /* white-space: 5px; */
   }
 
   .before-footer{
@@ -443,5 +446,17 @@
 
     .bag-image{
       width: 65%;
+    }
+  }
+
+  @media (min-width: 375px){
+    .search-form{
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 414px){
+    .search-form{
+      font-size: 20px;
     }
   }
