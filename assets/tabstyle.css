@@ -134,7 +134,7 @@
 
     .social-image {
       display: flex;
-      flex-wrap: wrap;
+      position: relative;
     }
 
     .follow-heading{
@@ -159,11 +159,11 @@
     }
 
     .product-details{
-      width: 100%;
+      width: 95%;
     }
 
     .bag-image{
-      width: 80%;
+      width: 85%;
     }
 
     .before-footer{
