@@ -128,6 +128,11 @@
       border-bottom: 0px;
     }
 
+    .icon-bar{
+      border: 1px solid #D3D3D3;
+      box-shadow: 4px 2px #888888;
+    }
+
     .social-image {
       display: flex;
       position: relative;
