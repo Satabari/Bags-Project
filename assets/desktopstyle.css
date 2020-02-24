@@ -1,5 +1,6 @@
 @media (min-width: 800px) {
 
+
     .banner-left{
         display: flex;
         justify-content: flex-end;
@@ -12,13 +13,30 @@
 
 @media (min-width: 801px) {
 
+    .banner-two{
+        width: 99%;
+    }
+
     .left-banner{
-        max-width: 900px ;
+        max-width: 850px ;
+    }
+
+    #banner_right{
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     .list-details{
        padding-top: 5px;
        padding-bottom: 5px;
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    .left-banner{
+        max-width: 900px ;
     }
 
 }
