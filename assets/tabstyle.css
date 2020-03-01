@@ -33,7 +33,7 @@
       border-top: 1px solid #000000;
       border-bottom: 1px solid #000000;
       justify-content: space-between;
-      
+      margin: 0px 5px;
     }
   
     .nav-item {
@@ -46,11 +46,12 @@
       padding-left: 15px;
       padding-right: 15px;
       display: inline-block;
-      color: #964B00;
+      color: #000000;
     }
 
     #form_inline{
       border: 1px solid #D3D3D3;
+      padding-right: 5px;
     }
 
     .form-control{
@@ -71,41 +72,40 @@
     }
 
     .banner-two{
-      margin-top: 10px;
-      margin-left: 10px;
-      margin-right: 10px;
-      margin-bottom: 0px;
+      margin: 10px 5px 0px 5px;
       border-bottom: 0px;
       display: flex;
-      display: -webkit-flex;
-      width: 98%;
-      
+      /* height: auto; */
+      justify-content: center;
+      height: auto;
       }
 
     #banner_left{
       border-bottom: 0;
       margin-bottom: 0px;
+      margin-left: 5px;
       margin-right: 5px;
       padding: 0px;
-      -webkit-flex: 1; /* Safari */
-      -md-flex: 1; /* IE 10 */
-      flex: 1; 
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
     }
 
     #banner_right{
       padding: 0px;
-      margin-left: 10px;
+      margin-left: 2px;
       margin-right: 10px;
       border: 2px solid #964B00;
       -webkit-flex: 1; /* Safari */
       -md-flex: 1; /* IE 10 */
       flex: 1; 
+      height: auto;
     }
 
     .list-head{
       list-style-type: none;
       padding-left: 10px;
-      padding-right: 5px;
+      padding-right: 0px;
       padding-bottom: 2px;
       background-color: #964B00;
       color: #FFFFFF;
@@ -114,10 +114,11 @@
     .list-details{
       display: flex;
       justify-content: flex-start;
+      align-items: center;
       padding-top: 2px;
       padding-bottom: 1px;
       padding-left: 5px;
-      padding-right: 5px;
+      padding-right: 0px;
       border-bottom: 1px solid #D3D3D3; 
       margin-right: 0px;
       font-size: 12px;
@@ -126,13 +127,20 @@
       list-style: none;
     }
 
-    #no_border{
-      border-bottom: 0px;
+    .list-image{
+      padding: 0px 5px 0px 8px;
     }
 
-    .icon-bar{
-      border: 1px solid #D3D3D3;
-      box-shadow: 4px 2px #888888;
+    .list-name{
+      padding: 0px 3px 0px 2px;
+    }
+
+    #first_list{
+      padding: 5px 0px 5px 8px;
+    }
+
+    #no_border{
+      border-bottom: 0px;
     }
 
     .social-image {
@@ -141,7 +149,8 @@
     }
 
     .follow-heading{
-      font-size: 12px;
+      font-size: 15px;
+      padding-bottom: 5px;
     }
     
     .product{
