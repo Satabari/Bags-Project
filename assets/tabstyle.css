@@ -86,7 +86,7 @@
       margin-left: 5px;
       margin-right: 5px;
       padding: 0px;
-      height: 100%;
+      height: auto;
       display: flex;
       justify-content: space-between;
     }
@@ -99,7 +99,7 @@
       -webkit-flex: 1; /* Safari */
       -md-flex: 1; /* IE 10 */
       flex: 1; 
-      height: auto;
+      height: 100%;
     }
 
     .list-head{
