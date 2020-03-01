@@ -79,6 +79,7 @@
       display: flex;
       display: -webkit-flex;
       width: 98%;
+      
       }
 
     #banner_left{
@@ -105,6 +106,7 @@
       list-style-type: none;
       padding-left: 10px;
       padding-right: 5px;
+      padding-bottom: 2px;
       background-color: #964B00;
       color: #FFFFFF;
     }
@@ -161,6 +163,7 @@
 
     .product-details{
       width: 95%;
+      padding: 12px 5px;
     }
 
     .bag-image{

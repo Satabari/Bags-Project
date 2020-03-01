@@ -15,20 +15,33 @@
 
     .banner-two{
         width: 99%;
+        height: 75%;
+    }
+
+    #banner_left{
+        margin-left: 5px;
     }
 
     .left-banner{
         max-width: 850px ;
+        height: 77%;
     }
 
     #banner_right{
         margin-left: 5px;
         margin-right: 5px;
+        height: 100%;
     }
 
     .list-details{
        padding-top: 5px;
-       padding-bottom: 5px;
+       padding-bottom: 2px;
+       font-size: 18px;
+    }
+
+    .product-details{
+        width: 98%;
+        padding: 20px 5px;
     }
 
 }
