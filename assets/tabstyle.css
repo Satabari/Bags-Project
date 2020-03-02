@@ -75,7 +75,6 @@
       margin: 10px 5px 0px 5px;
       border-bottom: 0px;
       display: flex;
-      /* height: auto; */
       justify-content: center;
       height: auto;
       }
@@ -89,6 +88,10 @@
       height: auto;
       display: flex;
       justify-content: space-between;
+    }
+
+    .left_banner{
+        height: 95%;
     }
 
     #banner_right{

@@ -9,11 +9,15 @@
     .product-details{
         width: 80%;
       }
+
+    .left-banner{
+        height: 95%;
+    }
 }
 
 @media (min-width: 801px) {
 
-    .banner-two{
+    /* .banner-two{
         height: fit-content;
     }
 
@@ -21,12 +25,12 @@
     #banner_left{
         margin-left: 5px;
         height: fit-content;
-    }
+    }*/
 
     .left-banner{
         max-width: 850px;
-        height: 63.5%;
-    }
+        height: 98%;
+    } 
 
     .list-details{
        padding-top: 5px;
@@ -37,5 +41,22 @@
         width: 98%;
         padding: 20px 5px;
     }
+
+}
+
+@media (min-width: 1000px){
+
+    .left-banner{
+        max-width: 850px;
+        height: 80%;
+    } 
+}
+
+@media (min-width: 1200px){
+
+    .left-banner{
+        max-width: 850px;
+        height: 63.5%;
+    } 
 
 }
