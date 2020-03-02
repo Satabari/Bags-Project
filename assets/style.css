@@ -131,19 +131,19 @@
   .content-open
   {
     display: inline;
-    margin: 2px 10px;
-    border: 2px 10px;
+    margin: 2px 5px;
+    border: 2px 5px;
     position: absolute;
     z-index: 1;
   }
 
   .search-bar{
-    display: flex;
+    display: inline-flex;
     padding-top: 10px;
     padding-bottom: 10px;
   }
 
-  .dropdown{
+  .drop-down{
     border-top: 10px;
     border-left: 5px;
     border-right: 5px;
@@ -426,12 +426,12 @@
 
   @media (min-width: 375px){
     .search-form{
-      font-size: 18px;
+      font-size: 16px;
     }
   }
 
   @media (min-width: 414px){
     .search-form{
-      font-size: 20px;
+      font-size: 18px;
     }
   }

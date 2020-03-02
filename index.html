@@ -71,15 +71,18 @@
             </div>
         </header>
 
-        <hr class="border-header">
-        
-        <div class="content-close" id="search_content">
-            <form class="search-form">
-                <input class="search-bar" type="text" size="30" placeholder="Search for bags">
-            </form>
-        </div>
-        <section class="drop-down" id="drop_down">
-            <div class="dropdown">
+        <section class="">
+            <hr class="border-header">
+            
+            <div class="content-close" id="search_content">
+                <form class="search-form">
+                    <input class="search-bar" type="text" size="35" placeholder="Search for bags">
+                </form>
+            </div>
+        </section>
+
+        <section class="dropdown-open" id="drop_down">
+            <div class="drop-down">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_toggle" 
                 data-toggle="dropdown">
                   Collection
@@ -95,7 +98,7 @@
               </div>
         </section>
         <section class="banner-one">
-            <div class="container">
+            <div class="container" id="text_container">
                 <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner">
                 <div class="text-block">
                   <h6 class="New-Collection">NEW COLLECTION</h6> 
@@ -273,9 +276,12 @@
             function searchFunction(){
                 if(content.className == "content-close"){
                     content.className = "content-open";
+                    drop_down.className = "dropdown-close";
+
                 }
                 else{
                     content.className = "content-close";
+                    drop_down.className = "dropdown-open";
                 }
             }
         </script>
