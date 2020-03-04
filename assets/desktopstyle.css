@@ -1,4 +1,4 @@
-@media (min-width: 800px) {
+@media (min-width: 1024px) {
 
 
     .banner-left{
@@ -15,7 +15,7 @@
     }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1400px) {
 
     /* .banner-two{
         height: fit-content;
@@ -41,22 +41,5 @@
         width: 100%;
         padding: 20px 10px;
     }
-
-}
-
-@media (min-width: 1000px){
-
-    .left-banner{
-        max-width: 850px;
-        height: 80%;
-    } 
-}
-
-@media (min-width: 1200px){
-
-    .left-banner{
-        max-width: 850px;
-        height: 63.5%;
-    } 
 
 }
