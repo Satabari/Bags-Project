@@ -6,8 +6,12 @@
         justify-content: flex-end;
     }
 
+    .bag-image{
+        width: 83%;
+    }
+
     .product-details{
-        width: 80%;
+        width: 95%;
       }
 
     .left-banner{

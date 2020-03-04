@@ -60,6 +60,14 @@
       border: 0px;
     }
 
+    .content-close{
+      display: none;
+    }
+
+    .content-open{
+      display: none;
+    }
+
     .drop-down{
       display: none;
     }
@@ -197,6 +205,10 @@
       line-height: 30px;
     }
 
+    .link-header{
+      font-weight: bold;
+    }
+
     .link-details {
       float: none;
     }
@@ -230,14 +242,6 @@
 
     #right_side{
       padding: 0px;
-    }
-
-    .content-close{
-      display: none;
-    }
-
-    .content-open{
-      display: none;
     }
 }
   
