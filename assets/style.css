@@ -317,7 +317,6 @@
 
   .link-header{
     margin-top: 10px;
-    margin-left: 12px;
     border-top: 10px;
     padding-top: 10px;
     font-size: 14px;
@@ -338,12 +337,8 @@
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 10px 10px 0px;
     text-decoration: none;
-  }
-
-  .enter-email{
-    margin-left: 12px;
   }
 
   .subscribe {
@@ -356,14 +351,12 @@
     text-decoration: none;
     font-size: 16px;
     margin-top: 10px;
-    margin-left: 12px;
     margin-right: 20px;
     cursor: pointer;
   }
 
   .image-left{
     float: left;
-    margin-left: 12px;
     margin-right: 12px;
     margin-bottom: 10px;
   }
