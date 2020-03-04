@@ -58,7 +58,7 @@
   }
 
   .bag-logo{
-    width: 70px;
+    width: 100px;
   }
 
   .search-icon{
@@ -74,35 +74,29 @@
   #logo_two{
     display: flex;
     justify-content: space-between;
-    
+    align-items: center;
+    margin: 5px;
   }
 
   .search-form{
     max-width: 565px;
     min-width: 50px;
+    width: unset;
+    background-color: #FFFFFF;
   }
 
   #column_one{
     display: flex;
-    justify-content: left;
-    padding-right: 100px;
+    padding-right: 10px;
     padding-left: 10px;
     padding-top: 10px;
-    
   }
 
   #column_two{
     display: flex;
-    justify-content: right;
     padding-right: 10px;
-    padding-left: 100px;
+    padding-left: 10px;
     padding-top: 10px;
-    
-  }
-
-  .search-button{
-    border: none;
-    background-color: #FFFFFF;
   }
 
   .border-header { 
@@ -118,11 +112,6 @@
   .content-close
   {
     display: none;
-  }
-
-  .search-form{
-    width: unset;
-    background-color: #FFFFFF;
   }
 
   .content-open
