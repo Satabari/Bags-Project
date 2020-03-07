@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+    crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="try.css" class="rel">
+
+</head>
+<body>
+    <header>
+        <div class="row logo-two" id="logo_two">
+            <div class="column" id="column_one">
+                <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
+            </div>
+            <div class="column" id="column_two">
+                <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
+            </div>
+        </div>
+    </header>
+
+    <section class="dropdown-open" id="drop_down">
+        <div class="container" id="drop_contain">
+
+            <div class="content-close" id="search_content">
+                <form class="search-form">
+                    <input class="search-bar" type="text" size="20" placeholder="Search for bags">
+                </form>
+            </div>
+
+            <div class="drop-down">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_toggle" 
+                data-toggle="dropdown">
+                Collection
+                </button>
+                <div class="dropdown-menu">
+                <button class="dropdown-item" type="button">Lorel ipsum dolor</button>
+                <button class="dropdown-item" type="button">Lorel ipsum dolor</button>
+                <button class="dropdown-item" type="button">Lorel ipsum dolor</button>
+                <button class="dropdown-item" type="button">Lorel ipsum dolor</button>
+                <button class="dropdown-item" type="button">Lorel ipsum ipsum dolor</button>
+                <button class="dropdown-item" type="button">Lorel ipsum</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        var content = document.getElementById("search_content");
+        function searchFunction(){
+            if(content.className == "content-close"){
+                content.className = "content-open";
+                drop_down.className = "dropdown-close";
+
+            }
+            else{
+                content.className = "content-close";
+                drop_down.className = "dropdown-open";
+            }
+        }
+    </script>
+
+    <section class="banner-one">
+        <div class="container" id="text_container">
+            <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner">
+            <div class="text-block">
+              <h6 class="New-Collection">NEW COLLECTION</h6> 
+              <h6 class="Delicacy">Delicacy</h6>
+            </div>
+          </div>
+    </section>    
+
+    <section class="container-fluid" id="banner_two">
+        <div class="row banner-row">
+            <div class="col-sm-8" id="banner_left">
+                <!-- <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner"> -->
+                <div class="banner-image"></div>
+                <div class="text-block">
+                    <h6 class="New-Collection">NEW COLLECTION</h6> 
+                    <h2 class="Delicacy">Delicacy</h2>
+                </div>
+            </div>
+            <div class="col-sm-3" id="banner_right">
+                <ul class="list-head"><li>Bags Collection</li></ul>
+                <ul class="list-details" id="first_list">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+                <ul class="list-details" id="no_border">
+                    <li class="list-image"><img src="assets/images/diamond-point.png" alt=""></li>
+                    <li class="list-name">Lorel ipsum dolor</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
