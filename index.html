@@ -30,11 +30,13 @@
     <body>
 
         <header>
+
             <div class="logo-one" id="logo_one">
                 <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
             </div>
 
             <nav class="navbar navbar-expand-md">
+
                 <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbar_supported_content" aria-controls="navbar_supported_content" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon-one"></span>
                 </button>
@@ -61,29 +63,35 @@
                       </li>
                   </ul>
                 </div>
+
               </nav>
 
             <div class="row logo-two" id="logo_two">
+
                 <div class="column" id="column_one">
                     <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
                 </div>
+
                 <div class="column" id="column_two">
                     <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
                 </div>
+
             </div>
+
+            <hr class="border-header">
+
         </header>
 
-        <section class="">
-            <hr class="border-header">
-            
-            <div class="content-close" id="search_content">
-                <form class="search-form">
-                    <input class="search-bar" type="text" size="35" placeholder="Search for bags">
-                </form>
-            </div>
-        </section>
+        <section class="dropdown" id="drop_down">
 
-        <section class="dropdown-open" id="drop_down">
+            <div class="container" id="drop_contain">
+
+                <div class="content-close" id="search_content">
+                    <form class="search-form">
+                        <input class="search-bar" type="text" size="20" placeholder="Search for bags">
+                    </form>
+                </div>
+
             <div class="drop-down">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_toggle" 
                 data-toggle="dropdown">
@@ -98,13 +106,16 @@
                   <button class="dropdown-item" type="button">Lorel ipsum</button>
                 </div>
               </div>
+
+            </div>
         </section>
+
         <section class="banner-one">
             <div class="container-fluid" id="text_container">
                 <img src="assets/images/left-banner.png" alt="left-banner" class="left-banner">
                 <div class="text-block">
                   <h6 class="New-Collection">NEW COLLECTION</h6> 
-                  <h2 class="Delicacy">Delicacy</h2>
+                  <h6 class="Delicacy">Delicacy</h6>
                 </div>
               </div>
         </section>
@@ -278,12 +289,9 @@
             function searchFunction(){
                 if(content.className == "content-close"){
                     content.className = "content-open";
-                    drop_down.className = "dropdown-close";
-
                 }
                 else{
                     content.className = "content-close";
-                    drop_down.className = "dropdown-open";
                 }
             }
         </script>

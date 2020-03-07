@@ -112,7 +112,7 @@
       -webkit-flex: 1; /* Safari */
       -md-flex: 1; /* IE 10 */
       flex: 1; 
-      height: 100%;
+      height: inherit;
     }
 
     .list-head{
@@ -138,6 +138,7 @@
       background-color: #FFFFFF;
       color: #000000;
       list-style: none;
+      line-height: inherit;
     }
 
     .list-image{

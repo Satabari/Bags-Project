@@ -3,6 +3,10 @@
     margin: 0;
   }
   
+  * {
+    box-sizing: border-box;
+  } 
+
   a,
   a:hover {
     color: #000000;
@@ -71,34 +75,6 @@
     margin-right: 5px;
   }
 
-  #logo_two{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 5px;
-  }
-
-  .search-form{
-    max-width: 565px;
-    min-width: 50px;
-    width: unset;
-    background-color: #FFFFFF;
-  }
-
-  #column_one{
-    display: flex;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-
-  #column_two{
-    display: flex;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-top: 10px;
-  }
-
   .border-header { 
     display: block;
     margin-top: 0.5em;
@@ -109,6 +85,34 @@
     border-width: 1px;
   } 
 
+
+  #logo_two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+  }
+
+  #column_one{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  #column_two{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+
+  #drop_contain{
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    max-width: 767px;
+}
+
+  
   .content-close
   {
     display: none;
@@ -116,24 +120,41 @@
 
   .content-open
   {
-    display: inline;
-    margin: 2px 5px;
-    border: 2px 5px;
     position: absolute;
     z-index: 1;
+    margin: -5px 0px 5px 0px;
+    width: 100%;
+    padding: 2px 15px;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .search-form{
+    border: 2px solid #F2F2F2; 
+    background-color: #FFFFFF;
+    justify-content: center;
+    margin: 5px 0px;
+    
   }
 
   .search-bar{
     display: inline-flex;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 8px;
+    border: none;
   }
+
+  #drop_down{
+    margin: 0px 0px;
+  }
+
 
   .drop-down{
     border-top: 10px;
     border-left: 5px;
     border-right: 5px;
     padding: 2px 15px;
+    margin-left: -10px;
+    margin-right: -10px;
   }
 
   #dropdown_toggle{
@@ -161,17 +182,16 @@
   }
 
   .banner-one{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
   }
 
   .left-banner{
     width: 100%;
-    max-width: 660px;
   }
   
   #text_container {
     position: relative;
-    margin-top: 30px;
+    margin-top: 15px;
   }
   
   .text-block {
@@ -179,6 +199,7 @@
     left: 20px;
     top: 40%;
     background-color: transparent;
+    padding-left: 5px;
   }
 
   .New-Collection{
@@ -188,6 +209,7 @@
 
   .Delicacy{
     color: #000000;
+    font-size: 30px;
   }
 
   .icon-bar {
@@ -388,14 +410,10 @@
 
   @media (max-width: 768px){
     #logo_one{
-        display: none;
+      display: none;
     }
     
-        #form_inline{
-            display: none;
-    }
-
-    #list_bag_item{
+    #form_inline{
       display: none;
     }
 
@@ -405,17 +423,5 @@
 
     .bag-image{
       width: 65%;
-    }
-  }
-
-  @media (min-width: 375px){
-    .search-form{
-      font-size: 16px;
-    }
-  }
-
-  @media (min-width: 414px){
-    .search-form{
-      font-size: 18px;
     }
   }
