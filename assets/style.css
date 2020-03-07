@@ -181,19 +181,27 @@
     color: #FFFFFF;
   }
 
-  .banner-one{
-    margin-bottom: 30px;
+  #banner_one {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    margin: 10px;
   }
 
-  .left-banner{
-    width: 100%;
+  #banner_row{
+    margin: 0px;
   }
-  
-  #text_container {
-    position: relative;
-    margin-top: 15px;
+
+  #banner_left{
+    padding: 0px;
   }
-  
+
+  .banner-image {
+    background: url("./images/left-banner.png") no-repeat center/cover;
+    height: 280px;
+    margin-bottom: 5px;
+  }
+
   .text-block {
     position: absolute;
     left: 20px;
@@ -201,6 +209,7 @@
     background-color: transparent;
     padding-left: 5px;
   }
+
 
   .New-Collection{
     color: #964B00;
@@ -261,7 +270,7 @@
     border-bottom: 2px solid #F2F2F2;
     padding-left: 2px;
     padding-right: 0px;
-    margin-left: 10px;
+    margin: 10px;
     width: auto;
   }
 
@@ -356,7 +365,7 @@
 
   .subscribe {
     display: block;
-    background-color: #E68A00;
+    background-color: #D07F16;
     border: none;
     color: white;
     padding: 4px 4px;
@@ -417,7 +426,7 @@
       display: none;
     }
 
-    .banner-two{
+    #banner_two{
       display: none;
     }
 

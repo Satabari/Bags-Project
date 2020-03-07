@@ -1,49 +1,28 @@
 @media (min-width: 1024px) {
 
-
-    .banner-left{
-        display: flex;
-        justify-content: flex-end;
-    }
-
     .bag-image{
         width: 83%;
     }
+
+    /* .banner-image{
+        height: 430px;
+    } */
 
     .product-details{
         width: 95%;
       }
 
-    .left-banner{
-        height: 95%;
-    }
 }
 
 @media (min-width: 1400px) {
-
-    /* .banner-two{
-        height: fit-content;
-    }
-
-
-    #banner_left{
-        margin-left: 5px;
-        height: fit-content;
-    }*/
-
-    .left-banner{
-        max-width: 850px;
-        height: 98%;
-    } 
-
-    .list-details{
-       padding-top: 5px;
-       padding-bottom: 2px;
-    }
 
     .product-details{
         width: 100%;
         padding: 20px 10px;
     }
+
+    /* .banner-image{
+        height: 470px;
+    } */
 
 }

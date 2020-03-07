@@ -112,7 +112,7 @@
     color: #FFFFFF;
   }
 
-  .banner-one{
+  /* .banner-one{
     margin-bottom: 30px;
 
   }
@@ -126,6 +126,35 @@
     width: 100%;
   }
   
+
+  .text-block {
+    position: absolute;
+    left: 20px;
+    top: 40%;
+    background-color: transparent;
+    padding-left: 5px;
+  } */
+
+  #banner_one {
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    margin: 10px;
+  }
+
+  #banner_row{
+    margin: 0px;
+  }
+
+  #banner_left{
+    padding: 0px;
+  }
+
+  .banner-image {
+    background: url("./assets/images/left-banner.png") no-repeat center/cover;
+    height: 280px;
+    margin-bottom: 5px;
+  }
 
   .text-block {
     position: absolute;
@@ -207,10 +236,44 @@
     }
 
     .banner-image {
-      background: url("./assets/images/left-banner.png") no-repeat center/cover content-box;
+      background: url("./assets/images/left-banner.png") no-repeat center/cover;
       margin-bottom: 5px;
       height: 310px;
     }
+
+    /* 
+      .banner-two{
+      margin: 10px 5px 0px 5px;
+      border-bottom: 0px;
+      display: flex;
+      justify-content: center;
+      
+      }
+
+    #banner_left{
+      border-bottom: 0;
+      margin-bottom: 0px;
+      margin-left: 5px;
+      margin-right: 5px;
+      padding: 0px;
+      -webkit-flex: 1;
+      -md-flex: 1; 
+      flex: 1; 
+      height: 100%;
+    }
+
+    #banner_right{
+      padding: 0px;
+      margin-left: 2px;
+      margin-right: 10px;
+      border: 2px solid #964B00;
+      -webkit-flex: 1; 
+      -md-flex: 1; 
+      flex: 1; 
+      height: inherit;
+    }
+
+    */
     
     .list-head{
       list-style-type: none;
@@ -254,3 +317,40 @@
     }
 
   }
+
+  @media (min-width: 1024px) {
+
+    .banner-left{
+      display: flex;
+      justify-content: flex-end;
+  }
+
+  .left-banner{
+    height: 95%;
+}
+
+  }
+
+  @media (min-width: 1400px) {
+
+    /* .banner-two{
+        height: fit-content;
+    }
+
+
+    #banner_left{
+        margin-left: 5px;
+        height: fit-content;
+    }*/
+
+    .left-banner{
+      max-width: 850px;
+      height: 98%;
+  }
+
+  .list-details{
+    padding-top: 5px;
+    padding-bottom: 2px;
+ }
+
+}
