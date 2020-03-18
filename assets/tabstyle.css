@@ -2,28 +2,30 @@
 
   .container{
     padding: 0px;
-    max-width: 992px;
+    max-width: 991px;
   }
 
   .container-fluid{
     padding: 0px;
   }
 
-    #bag_logo{
+    .nav-and-logo{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .navbar{
+      order: 2;
+    }
+    
+    #logo_two{
+        order: 1;
         display: flex;
         justify-content: center;
     }
 
-    #logo_one{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-        
-      }
-    
-    #logo_two{
-        display: none;
+    #column_two{
+      display: none;
     }
 
     .navbar {
@@ -175,30 +177,23 @@
       padding-bottom: 5px;
     }
 
-    #product_container{
-      display: inline-block;
+    .product-row{
+      margin: 0px 5px;
     }
     
-    .product{
-      margin: 5px 5px;
-    }
-
     .product-list {
-      float: left;
-      width: 25%;
-      padding: 5px;
       margin: 20px 0px;
     }
     
-    .product::after {
+    /* .product::after {
       content: "";
       clear: both;
       display: inline-block;
-    }
+    } */
 
     .product-details{
       width: 95%;
-      padding: 12px 5px;
+      padding: 10px 5px;
     }
 
     .bag-image{
@@ -212,12 +207,6 @@
     .before-footer{
       display: flex;
       flex-wrap: nowrap;
-      font-size: 10px;
-    }
-
-    #right_side{
-      border-left: 5px;
-      padding-left: 0px;
     }
 
     .link-header{
@@ -247,17 +236,11 @@
       margin-right: 2px;
       padding-right: 2px;
       padding-bottom: 15px;
-      font-size: 10px;
     }
 
     .image-left{
       margin-bottom: 0px;
     }
 
-    .enter-email{
-      border-radius: 0px;
-      padding: 2px;
-      box-shadow: none;
-    }
 }
   

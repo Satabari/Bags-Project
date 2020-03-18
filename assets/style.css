@@ -92,8 +92,8 @@
     display: block;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     border-style: inset;
     border-width: 1px;
   } 
@@ -137,7 +137,7 @@
     z-index: 1;
     margin: -5px 0px 5px 0px;
     width: 100%;
-    padding: 2px 15px;
+    padding: 0px 10px;
     margin-left: -10px;
     margin-right: -10px;
   }
@@ -162,12 +162,8 @@
 
 
   .drop-down{
-    border-top: 10px;
-    border-left: 5px;
-    border-right: 5px;
-    padding: 2px 15px;
-    margin-left: -10px;
-    margin-right: -10px;
+    background-color: #964B00;
+    border-radius: 0px;
   }
 
   #dropdown_toggle{
@@ -232,6 +228,7 @@
   .Delicacy{
     color: #000000;
     font-size: 30px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;;
   }
 
   .icon-bar {
@@ -273,7 +270,33 @@
     color: #964B00;
   }
 
+  .sales-product{
+    /* border-bottom: 2px solid #F2F2F2; */
+    padding-left: 10px;
+  }
+
+  /* .sales-product::after{
+    content: "";
+    background-color: #F2F2F2;
+    height: 2px;
+    padding-left: 10px;
+    position: absolute;
+  } */
+
   .under-line{
+    display: inline;
+    font-size: 15px;
+    border-bottom: 2px solid #964B00;
+  }
+
+  .under-line::after{
+    content: "";
+    background-color: #F2F2F2;
+    height: 2px;
+    position: absolute;
+  }
+
+  /* .under-line{
     border-bottom: 2px solid #964B00;
     margin-bottom: 0px;
     font-size: 20px;
@@ -286,16 +309,18 @@
     padding-right: 0px;
     margin: 10px;
     width: auto;
+  } */
+
+  .product-row{
+    margin: 0px 10px;
   }
 
   .product-list{
     position: relative;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: 50px 10px;
     border: 0px 10px;
     display: flex;
+    padding: 0px 5px;
     justify-content: center;
     align-content: center;
     width: fit-content;
@@ -313,7 +338,7 @@
     background-color: #964B00;
     opacity: 0.7;
     color: #FFFFFF;
-    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
     display: inline-flex;
     justify-content: space-between;
     min-width: 65%;
@@ -328,7 +353,7 @@
   .bag-price{
     float: right;
   }
-
+  
   .information-text{
     text-align: center;
     margin-top: 20px;
@@ -336,6 +361,7 @@
   }
 
   .information-heading{
+    display: block;
     padding: 10px 10px;
     margin-top: 10px;
     font-size: 25px;
@@ -343,9 +369,12 @@
   }
 
   .information-details{
+    display: block;
     padding: 5px 10px;
     word-spacing: 5px;
     font-size: 15px;
+    line-height: 35px;
+    margin: 20px 0px 50px 0px;
   }
 
   .before-footer{
@@ -359,6 +388,7 @@
     border-top: 10px;
     padding-top: 10px;
     font-size: 14px;
+    font-weight: bold;
  }
 
   .link-list {
@@ -380,6 +410,12 @@
     text-decoration: none;
   }
 
+  .enter-email{
+    border-radius: 0px;
+    padding: 2px 5px;
+    border: none;
+  }
+
   .subscribe {
     display: block;
     background-color: #D07F16;
@@ -389,8 +425,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 10px;
-    margin-top: 10px;
-    margin-right: 20px;
+    margin: 10px 20px 10px 0px;
     cursor: pointer;
   }
 
@@ -404,7 +439,6 @@
 
   .caption a {
     display: block;
-    font-size: 12px;
     margin: 5px 10px;
     padding-left: 5px;
     color: #FFFFFF;
@@ -413,7 +447,6 @@
 
   .contact-list{
     margin-bottom: 0px;
-    font-size: 10px;
   }
 
   .contact-details{
@@ -451,4 +484,29 @@
     .bag-image{
       width: 65%;
     }
+
+  }  
+
+    @media (min-width: 360px){
+
+    .product-details{
+      padding: 18px 10px;
+    }
+
+  }
+
+  @media (min-width: 420px){
+
+    .product-details{
+      padding: 23px 10px;
+    }
+
+  }
+
+  @media (min-width: 576px){
+
+    .product-details{
+      padding: 38px 10px;
+    }
+
   }
