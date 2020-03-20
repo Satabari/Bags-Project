@@ -287,13 +287,13 @@
     margin-top: -2px;
   }
   
-  .product-row{
+  /* .product-row{
     margin: 0px 10px;
-  }
+  } */
 
   .product-list{
     position: relative;
-    margin: 50px 10px;
+    margin: 50px -15px;
     border: 0px 10px;
     display: flex;
     padding: 0px 5px;
