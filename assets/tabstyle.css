@@ -211,10 +211,6 @@
     flex-wrap: nowrap;
   }
 
-  .link-header{
-    font-weight: bold;
-  }
-
   .link-details {
     float: none;
   }

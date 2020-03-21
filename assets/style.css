@@ -185,8 +185,11 @@
   }
 
   .dropdown-item{
-    margin-left: 5px;
     color: #FFFFFF;
+  }
+
+  .dropdown-item:hover{
+    background-color: #964B00;
   }
 
   .banner-one {
@@ -211,7 +214,6 @@
     left: 7%;
     top: 40%;
     background-color: transparent;
-    /* padding-left: 5px; */
   }
 
 
@@ -236,7 +238,7 @@
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    z-index: 2;
+    transition: all 0.3s ease;
   }
   
   .icon-bar a {
@@ -277,7 +279,6 @@
   }
 
   .grey-line{
-    height: 1px;
     border-top: 1px solid #F2F2F2;
     margin-top: -2px;
   }
@@ -285,12 +286,10 @@
   .product-list{
     position: relative;
     margin: 50px -15px;
-    border: 0px 10px;
     display: flex;
     padding: 0px 5px;
     justify-content: center;
     align-content: center;
-    width: fit-content;
   }
 
   .bag-image{
@@ -308,7 +307,7 @@
     padding: 22px 10px;
     display: inline-flex;
     justify-content: space-between;
-    min-width: 65%;
+    min-width: 63%;
     max-width: 80%;
     font-weight: bold;
   }
@@ -324,7 +323,6 @@
   .information-text{
     text-align: center;
     margin-top: 20px;
-    border: 20px 0px;
   }
 
   .information-heading{
