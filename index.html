@@ -2,32 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Satabari Mukherjee">
-    <title>Bags</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Satabari Mukherjee">
+  <title>Bags</title>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/tabstyle.css">
-    <link rel="stylesheet" href="assets/desktopstyle.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/tabstyle.css">
+  <link rel="stylesheet" href="assets/desktopstyle.css">
 </head>
 
 <body class="container-fluid">
-  <header class="nav-and-logo ">
+  <header class="nav-and-logo">
     <div class="black-line">
-      <nav class="navbar navbar-expand-md container">
+      <nav class="navbar navbar-expand-md nav-content wrapper">
         <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse"
         data-target="#navbar_supported_content" aria-controls="navbar_supported_content"
         aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +49,9 @@
             </li>
             <li class="nav-item last-nav">
               <form class="form-inline my-0 my-lg-0">
-                  <input class="form-control" type="search" placeholder="Search for bags" aria-label="Search">
-                  <input type="image" src="assets/images/search-icon.png" alt="search-icon"
-                      class="search-icon" id="search_icon1">
+                <input class="form-control" type="search" placeholder="Search for bags" aria-label="Search">
+                <input type="image" src="assets/images/search-icon.png" alt="search-icon"
+                    class="search-icon" id="search_icon1">
               </form>
             </li>
           </ul>
@@ -63,25 +63,24 @@
       <div class="column">
         <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
       </div>
-      <div class="column">
+      <div class="column" id="search">
         <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon"
         onclick="searchFunction()">
       </div>
     </div>
     <hr class="border-header">
   </header>
-		
-  <section class="dropdown" id="drop_down">
+    
+  <section class="dropdown">
     <div class="drop-contain">
       <div class="content-close" id="search_content">
         <form class="search-form">
-            <input class="search-bar" type="text" size="20" placeholder="Search for bags">
+          <input class="search-bar" type="text" size="20" placeholder="Search for bags">
         </form>
       </div>
       <div class="drop-down">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdown_toggle"
-            data-toggle="dropdown">
-            <h6> Bags Collections </h6>
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown">
+          <span class="button-name">Bags Collections</span>
         </button>
         <div class="dropdown-menu">
           <button class="dropdown-item" type="button">Lorel ipsum dolor</button>
@@ -94,47 +93,48 @@
       </div>
     </div>
   </section>
-
-  <section class="row banner">
-    <div class="col-md-8 banner-left">
-      <div class="banner-image"></div>
-      <div class="text-block">
-        <h6 class="New-Collection">NEW COLLECTION</h6>
-        <h2 class="Delicacy">Delicacy</h2>
+  <section class="banner">
+    <div class="row wrapper">
+      <div class="col-md-7 banner-left">
+        <div class="banner-image"></div>
+        <div class="text-block">
+          <h6 class="New-Collection">NEW COLLECTION</h6>
+          <h2 class="Delicacy">Delicacy</h2>
+        </div>
       </div>
-    </div>
-    <div class="col-md-4 banner-right">
-      <h6 class="list-head">
-        Bags Collection
-      </h6>
-      <li class="list-details" id="first_list">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
-      <li class="list-details" id="no_border">
-        <img src="assets/images/diamond-point.png" class="list-image" alt="">
-        Lorel ipsum dolor
-      </li>
+      <div class="col-md-4 banner-right">
+        <h6 class="list-head">Bags Collection</h6>
+        <ul>
+          <li class="list-details" id="first_list">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+          <li class="list-details" id="no_border">
+            <img src="assets/images/diamond-point.png" class="list-image" alt="">
+            Lorel ipsum dolor
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
   <div class="icon-bar">
@@ -159,7 +159,7 @@
     </div>
   </div>
 
-  <section class="product-container container">
+  <section class="product-container wrapper">
     <div class="sales-product">
       <h3 class="under-line"> Sales Product </h3>
       <h6 class="grey-line"></h6>
@@ -217,7 +217,7 @@
   </section>
 
   <div class="before-footer-container">
-    <section class="before-footer container">
+    <section class="before-footer wrapper">
       <div class="col-md-3 col-lg-3">
         <h5 class="link-header">Quick Links</h5>
         <ul class="link-list">
@@ -234,18 +234,20 @@
       </div>
       <div class="col-md-5 col-lg-5 right-side">
         <h5 class="link-header">Contact Info</h5>
-        <li class="contact-details">
-          <img src="assets/images/location-icon.png" alt="location-icon" class="contact-image">
-          1234 Some St San Francisco, CA 94102, US 1.800.123.4567
-        </li>
-        <li class="contact-details">
-          <img src="assets/images/phone-icon.png" alt="phone-icon" class="contact-image">
-          (123) 456 78 90
-        </li>
-        <li class="contact-details">
-          <img src="assets/images/envelop-icon.png" alt="envelop-icon" class="contact-image">
-          info@bags.com
-        </li>
+        <ul class="link-list">
+          <li class="contact-details">
+            <img src="assets/images/location-icon.png" alt="location-icon" class="contact-image">
+            1234 Some St San Francisco, CA 94102, US 1.800.123.4567
+          </li>
+          <li class="contact-details">
+            <img src="assets/images/phone-icon.png" alt="phone-icon" class="contact-image">
+            (123) 456 78 90
+          </li>
+          <li class="contact-details">
+            <img src="assets/images/envelop-icon.png" alt="envelop-icon" class="contact-image">
+            info@bags.com
+          </li>
+        </ul>
       </div>
     </section>
   </div>
