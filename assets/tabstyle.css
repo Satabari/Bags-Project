@@ -1,23 +1,19 @@
 @media (min-width: 768px) {
 
-  .container-fluid{
-    padding: 0px;
-  }
-
   .nav-and-logo{
     display: flex;
     flex-direction: column;
   }
 
-  .logo-two{
+  .logo{
     order: 1;
     display: flex;
     justify-content: center;
-}
+  }
 
   #column_two{
     display: none;
-}
+  }
 
 
   .black-line{
@@ -25,12 +21,12 @@
     border-bottom: 1px solid #000000;
     order: 2;
   }
-  
+
   .navbar {
       padding: 0;
       background-color: #FFFFFF;
     }
-  
+
   #navbar_supported_content {
     margin: 0px;
     position: unset;
@@ -57,7 +53,7 @@
     font-weight: bold;
   }
 
-  #form_inline{
+  .form-inline{
     border: 1px solid #D3D3D3;
     padding-right: 5px;
   }
@@ -66,7 +62,7 @@
     margin: 0px;
     border: 0px;
   }
-
+  
   .content-close{
     display: none;
   }
@@ -80,11 +76,7 @@
   }
 
   .border-header {
-    display: none;
-  }
-
-  .banner-one{
-    display: none;
+    display: none;float: left;
   }
 
   .New-Collection{
@@ -95,24 +87,15 @@
     font-size: 40px;
   }
 
-  .banner-two {
-    padding-left: 0px;
-    padding-right: 0px;
-    width: auto;
-    margin: 20px 0px;
-    background-color: #F2F2F2;
-
-  }
-
   .banner-left {
     padding-right: 0px;
     background-color: #F2F2F2;
     margin: 0px;
+    line-height: 0;
   }
 
   .banner-image {
     background: url("./images/left-banner.png") no-repeat center/cover;
-    margin-bottom: 5px;
     height: 320px;
   }
 
@@ -125,14 +108,13 @@
   }
 
   .list-head{
-    list-style-type: none;
-    padding-left: 15px;
-    padding-right: 0px;
-    padding-bottom: 2px;
+    padding: 5px 0px 5px 15px;
+    font-weight: bold;
+    font-size: 15px;
     background-color: #964B00;
     color: #FFFFFF;
   }
-  
+
   .list-details{
     display: flex;
     justify-content: flex-start;
@@ -150,10 +132,6 @@
     padding: 0px 5px 0px 8px;
   }
 
-  .list-name{
-    padding: 0px 0px 0px 2px;
-  }
-
   #first_list{
     padding: 5px 0px 5px 8px;
   }
@@ -164,7 +142,6 @@
 
   .social-image {
     display: flex;
-    position: relative;
   }
 
   .follow-heading{
@@ -175,11 +152,11 @@
   .product-row{
     margin: 0px 5px;
   }
-  
+
   .product-list {
     margin: 20px 0px;
   }
-  
+
   .product-details{
     width: 95%;
     padding: 10px 5px;
@@ -208,7 +185,7 @@
 
   .before-footer{
     display: flex;
-    flex-wrap: nowrap;
+    font-size: 8px;
   }
 
   .link-details {
@@ -219,25 +196,15 @@
     padding: 5px 0px;
   }
 
+  .right-side{
+    align-items: baseline;
+  }
+
   .contact-details{
-    list-style: none;
-    display: inline;
+    margin: 20px 0px;
   }
 
-  .contact-details::after {
-    content: "";
-    clear: both;
-    display: inline;
-  }
-
-  .caption a {
-    margin-right: 2px;
-    padding-right: 2px;
-    padding-bottom: 15px;
-  }
-
-  .image-left{
+  .contact-image{
     margin-bottom: 0px;
-  }
+    }
 }
-  
