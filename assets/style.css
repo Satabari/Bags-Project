@@ -296,7 +296,7 @@ a:hover {
   background-color: #964B00;
   opacity: 0.7;
   color: #FFFFFF;
-  padding: 20px 10px;
+  padding: 24px 10px;
   display: inline-flex;
   justify-content: space-between;
   min-width: 63%;
@@ -339,7 +339,7 @@ a:hover {
   display: none;
 }
 
-.before-footer-container{
+.before-footer-portion{
   background-color: #964B00;
 }
 
