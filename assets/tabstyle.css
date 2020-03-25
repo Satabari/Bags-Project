@@ -15,11 +15,11 @@
     display: none;
   }
 
-
   .black-line{
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     order: 2;
+    margin: 0px 5px;
   }
 
   .navbar {
@@ -80,11 +80,17 @@
     display: none;float: left;
   }
 
+  .banner{
+    margin: 10px 5px 30px 10px;
+  }
+
   .banner-left {
-    padding-right: 0px;
     background-color: #F2F2F2;
-    margin: 0px 5px 0px 0px;
-    line-height: 0;
+    margin-left: 5%;
+  }
+
+  .text-block{
+    left: -5%;
   }
 
   .banner-image {
@@ -97,14 +103,13 @@
   }
 
   .Delicacy{
-    font-size: 40px;
+    font-size: 60px;
   }
 
   .banner-right{
     border: 2px solid #964B00;
-    padding: 0px;
-    margin: 0px 0px 0px 0px;
     background-color: #FFFFFF;
+    padding: 0px;
   }
 
   .list-head{
@@ -149,16 +154,13 @@
     padding-bottom: 5px;
   }
 
-  .product-row{
-    margin: 0px 5px;
-  }
-
   .product-list {
     margin: 20px 0px;
+    padding: 0px;
   }
 
   .product-details{
-    width: 95%;
+    min-width: 85%;
     padding: 10px 5px;
   }
 
@@ -181,15 +183,23 @@
 
   .before-footer{
     display: flex;
-    font-size: 8px;
+    font-size: 10px;
   }
 
   .link-details {
     float: none;
   }
 
+  .right-side{
+    font-size: 9px;
+  }
+
+  .enter-email{
+    margin-top: 12px;
+  }
+
   .contact-details{
-    margin: 20px 0px;
+    margin: 12px 0px 18px 0px;
   }
 
   .contact-image{
