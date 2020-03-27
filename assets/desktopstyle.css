@@ -1,53 +1,97 @@
 @media (min-width: 992px) {
-	
-	.banner-image {
-    height: 325px;
+	.logo{
+		margin-top: 25px;
+	}
+	.bag-logo{
+		width: 140px;
+	}
+	.navbar{
+		height: 55px;
+	}
+	.nav-item{
+		font-size: 15px;
+	}
+	.form-control{
+		font-size: 15px;
+	}
+	.banner{
+	  height:400px;
+    margin-top:20px;
+	}
+	.banner-left,	.banner-image,.banner-right{
+      height: 400px;
+		}	
+  .text-block{
+    top: 50%;
   }
+	.list-details{
+		padding: 15px;
+		font-size: 14px;
+	}
+	.product-section{
+		margin: 60px auto 0;
+	}
 	.bag-image{
-		width: 90%;
+		min-width: 230px;
+		width:auto;
 	}
 	.product-details{
-		min-width: 90%;
-		padding: 20px 5px;
+		min-width: 230px;
+		width: auto;
+		padding: 18px 5px;
 	}
+	.under-line{
+  	font-size: 18px;
+  }
+  .information-text{
+    margin-top: 50px;
+  }
+  .information-heading{
+    padding-bottom: 20px;
+  }
+  .information-details2{
+    font-size: 14px;
+    line-height: 35px;
+  }
 	.before-footer{
 		font-size: 12px;
 	}
-	.right-side{
-    font-size: 12px;
-  }}
-
-@media (min-width: 1024px) {
-
-	.product-details{
-		padding: 22px 5px;
+	.link-header{
+	  font-size: 16px;
+	 }
+	.location{
+		font-size: 11px;
+	}
+	.footer{
+		padding: 5px 0;
 	}
 }
 
 @media (min-width: 1200px) {
-
-	.banner-left{
-		margin-left: 8%;
+	.bag-image{
+		min-width: 275px;
+		width:auto;
 	}
-	.text-block{
-    left: -12%;
-  }
 	.product-details{
+		min-width: 275px;
+		width: auto;
+		padding: 26px 5px;
+	}
+}
+@media (min-width: 1500px) {
+	.bag-image{
+		min-width: 270px;
+		width:auto;
+	}
+	.product-details{
+		min-width: 270px;
+		width: auto;
 		padding: 28px 5px;
 	}
 }
-
-@media (min-width: 1400px) {
-
-
-	.banner-image {
-    height: 330px;
-  }
-	.bag-image{
-		width: 95%;
-	}
-	.product-details{
-		min-width: 95%;
-		padding: 36px 10px;
+@media (min-width: 1900px){
+	.banner{
+	  margin-left: auto;
+ 	  margin-right:  auto;
 	}
 }

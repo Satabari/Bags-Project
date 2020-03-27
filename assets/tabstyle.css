@@ -3,123 +3,123 @@
   .nav-and-logo{
     display: flex;
     flex-direction: column;
+    padding: 0 20px; 
   }
-
+  .last-nav{
+    margin-top: 5px;
+  }
   .logo{
     order: 1;
     display: flex;
     justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
   }
-
+  .bag-logo{
+    width: 120px;
+  }
   #search{
     display: none;
   }
-
   .black-line{
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     order: 2;
     margin: 0px 5px;
   }
-
   .navbar {
-      padding: 0;
+      padding: 0px;
       background-color: #FFFFFF;
       justify-content: center;
+      height: 40px;
+      margin: 5px auto;
   }
-
   #navbar_supported_content {
     margin: 0px;
     position: unset;
     top: auto;
   }
-    
   .navbar-nav {
     width: 100%;
     border-bottom: 0px;
     justify-content: space-between;
     margin: 0px 5px;
   }
-
   .nav-item {
     display: inline-block;
     background-color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: bold;
+    font-size: 12px;
   }
-
   .nav-item a {
     padding-left: 15px;
-    padding-right: 15px;
+    padding-right: 10px;
     display: inline-block;
     color: #000000;
-    font-weight: bold;
   }
-
   .form-inline{
-    border: 1px solid #D3D3D3;
+    border: 2px solid #D3D3D3;
     padding-right: 5px;
   }
-
   .form-control{
     margin: 0px;
     border: 0px;
+    min-width: 215px;
+    height: auto;
+    font-size: 12px;
+    padding: 3px 10px;
   }
-  
   .content-close{
     display: none;
   }
-
   .content-open{
     display: none;
   }
-
   .drop-down{
     display: none;
   }
-
   .border-header {
-    display: none;float: left;
+    display: none;
   }
-
   .banner{
-    margin: 10px 5px 30px 10px;
-  }
-
-  .banner-left {
+    height: 300px;
+    margin: 10px 20px 0 20px;
+    padding-left: 15px;
     background-color: #F2F2F2;
-    margin-left: 5%;
   }
-
+  .banner-left {
+    padding-right: 10px;
+    height: 300px;
+  }
   .text-block{
-    left: -5%;
+    top: 45%;
+    left: 2%;
   }
-
   .banner-image {
     background: url("./images/left-banner.png") no-repeat center/cover;
-    height: 320px;
+    height: 300px;
   }
-
   .New-Collection{
     font-size: 12px;
   }
-
   .Delicacy{
-    font-size: 60px;
+    font-size: 50px;
   }
-
   .banner-right{
     border: 2px solid #964B00;
     background-color: #FFFFFF;
     padding: 0px;
+    height: 300px;
   }
-
   .list-head{
-    padding: 5px 0px 5px 15px;
+    padding: 2px 0px 3px 10px;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     background-color: #964B00;
     color: #FFFFFF;
   }
-
   .list-details{
     display: flex;
     justify-content: flex-start;
@@ -132,77 +132,72 @@
     color: #000000;
     list-style: none;
   }
-
   .list-image{
     padding: 0px 5px 0px 8px;
   }
-
   #first_list{
     padding: 5px 0px 5px 8px;
   }
-
   #no_border{
     border-bottom: 0px;
   }
-
   .social-image {
     display: flex;
   }
-
   .follow-heading{
     font-size: 15px;
     padding-bottom: 5px;
   }
-
+  .product-section{
+    margin-top: 50px;
+  }
+  .sales-product{
+    padding: 0;
+  }
   .product-list {
     margin: 20px 0px;
     padding: 0px;
   }
-
   .product-details{
-    min-width: 85%;
-    padding: 15px 5px;
+    max-width: 170px;
+    padding: 14px 5px;
   }
-
   .bag-image{
-    width: 85%;
+    max-width: 170px;
   }
-
+  .information-text{
+    margin-top: 40px;
+  }
+  .information-heading{
+    font-size: 40px;
+  }
   .information-details1{
     display: none;
   }
-
   .information-details2{
     display: block;
-    padding: 5px 5px;
-    font-size: 15px;
-    line-height: 35px;
-    margin: 20px 5px 50px 5px;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0 0 50px;
     text-align: center;
   }
-
   .before-footer{
     display: flex;
     font-size: 10px;
   }
-
   .link-details {
-    float: none;
+    display: block;
+    font-weight: normal;
+    padding: 5px 0px;
   }
-
-  .right-side{
-    font-size: 9px;
-  }
-
   .enter-email{
     margin-top: 12px;
   }
-
-  .contact-details{
-    margin: 12px 0px 18px 0px;
+  .location{
+    font-size: 8px;
   }
-
   .contact-image{
+    margin-right: 5px;
     margin-bottom: 0px;
     }
 }
