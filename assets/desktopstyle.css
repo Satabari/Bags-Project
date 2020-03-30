@@ -15,11 +15,14 @@
 		font-size: 15px;
 	}
 	.banner{
-	  height:400px;
-    margin-top:20px;
+	  height: 410px;
+    margin-top: 30px;
+	}
+	.banner-row{
+		margin: auto;
 	}
 	.banner-left,	.banner-image,.banner-right{
-      height: 400px;
+      height: 410px;
 		}	
   .text-block{
     top: 50%;
@@ -40,9 +43,6 @@
 		width: auto;
 		padding: 18px 5px;
 	}
-	.under-line{
-  	font-size: 18px;
-  }
   .information-text{
     margin-top: 50px;
   }
@@ -62,12 +62,28 @@
 	.location{
 		font-size: 11px;
 	}
-	.footer{
+	.copyright{
 		padding: 5px 0;
 	}
 }
 
+@media (min-width: 1024px) {
+	.banner-left{
+		padding-right: 10px;
+	}
+	.banner-right{
+		margin-left: 12px;
+	}
+}
+
 @media (min-width: 1200px) {
+
+	.banner-left{
+		padding-right: 10px;
+	}
+	.banner-right{
+		margin-left: 10px;
+	}
 	.bag-image{
 		min-width: 275px;
 		width:auto;
@@ -79,6 +95,16 @@
 	}
 }
 @media (min-width: 1500px) {
+
+	.banner-row{
+		margin: auto;
+	}
+	.banner-left{
+		padding-right: 20px;
+	}
+	.banner-right{
+		margin-left: 0px;
+	}
 	.bag-image{
 		min-width: 270px;
 		width:auto;

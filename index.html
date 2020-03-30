@@ -63,7 +63,9 @@
           <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
         </div>
         <div class="column" id="search">
-          <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
+          <form>
+            <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
+          </form>
         </div>
       </div>
       <hr class="border-header">
@@ -92,7 +94,7 @@
       </div>
     </section>
     <section class="banner">
-      <div class="row container">
+      <div class="container banner-row">
         <div class="col-md-8 banner-left">
           <figure class="banner-image"></figure> 
           <div class="text-block">
@@ -103,7 +105,7 @@
         <div class="col-md-4 banner-right">
           <h6 class="list-head">Bags Collection</h6>
           <ul>
-            <li class="list-details" id="first_list">
+            <li class="list-details">
               <img src="assets/images/diamond-point.png" class="list-image" alt="">
               <span>Lorem ipsum dolor</span>
             </li>
@@ -137,53 +139,43 @@
     </section>
     <section class="social-media">
       <h6 class="follow-heading">Follow Us</h6>
-      <div class="social-image">
         <div class="follow-row">
-          <a href="#" class="follow-col">
-            <img class="image-follow" src="assets/images/fb.png" alt="fb-logo">
-          </a>
-          <a href="#" class="follow-col">
-            <img class="image-follow" src="assets/images/twitter.png" alt="twitter-logo">
-          </a>
+          <a href=# target="_blank"><img src="assets/images/fb.png" ></a>
+          <a href=# target="_blank"><img src="assets/images/twitter.png"></a>
         </div>
         <div class="follow-row">
-          <a href="#" class="follow-col">
-            <img class="image-follow" src="assets/images/google-plus.png" alt="googleplus-logo">
-          </a>
-          <a href="#" class="follow-col">
-            <img class="image-follow" src="assets/images/skype.png" alt="skype-logo">
-          </a>
+          <a href=# target="_blank"><img src="assets/images/google-plus.png" ></a>
+          <a href=# target="_blank"><img src="assets/images/skype.png"></a>
         </div>
-      </div>
     </section>
     <section class="product-section container">
       <div class="sales-product">
         <h3 class="under-line"> Sales Products </h3>
         <h6 class="grey-line"></h6>
       </div>
-      <div class="row m-0">
-        <div class="product-list col-12 col-md-3 col-lg-3">
+      <div class="product-row">
+        <div class="product-list col-12 col-md-3">
           <img class="bag-image" src="assets/images/bag1.jpg" alt="bag1">
           <div class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$20</h6>
           </div>
         </div>
-        <div class="product-list col-12 col-md-3 col-lg-3">
+        <div class="product-list col-12 col-md-3">
           <img class="bag-image" src="assets/images/bag2.jpg" alt="bag2">
           <div class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$40</h6>
           </div>
         </div>
-        <div class="product-list col-12 col-md-3 col-lg-3">
+        <div class="product-list col-12 col-md-3">
           <img class="bag-image" src="assets/images/bag3.jpg" alt="bag3">
           <div class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$30</h6>
           </div>
         </div>
-        <div class="product-list col-12 col-md-3 col-lg-3">
+        <div class="product-list col-12 col-md-3">
           <img class="bag-image" src="assets/images/bag4.jpg" alt="bag4">
           <div class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
@@ -212,43 +204,44 @@
         </p>
       </div>
     </section>
-    <section class="before-footer-portion">
-      <div class="before-footer container">
-        <div class="col-md-3 col-lg-3">
-          <h5 class="link-header">Quick Links</h5>
-          <a href="#" class="link-details">Home</a>
-          <a href="#" class="link-details">About Us</a>
-          <a href="#" class="link-details">Bags</a>
-          <a href="#" class="link-details">Contact us</a>
-        </div>
-        <div class="col-md-4 col-lg-4">
-          <h5 class="link-header">Newsletter</h5>
-          <input class="enter-email" type="text" placeholder="Enter Email Address" size="22">
-          <button class="subscribe">Subscribe</button>
-        </div>
-        <div class="col-md-5 col-lg-5 right-side">
-          <h5 class="link-header">Contact Info</h5>
-          <ul class="contact-list">
-            <li class="contact-details">
-              <img src="assets/images/location-icon.png" alt="location-icon" class="contact-image">
-              <span class="location">1234 Some St San Francisco, CA 94102, US 1.800.123.4567</span>
-            </li>
-            <li class="contact-details">
-              <img src="assets/images/phone-icon.png" alt="phone-icon" class="contact-image">
-              <span>(123) 456 78 90</span>
-            </li>
-            <li class="contact-details">
-              <img src="assets/images/envelop-icon.png" alt="envelop-icon" class="contact-image">
-              <span>info@bags.com</span>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
     <footer class="footer">
-      <p>Copyright &copy; Bags 2019</p>
+      <section class="before-footer-portion">
+        <div class="before-footer container">
+          <div class="col-md-3">
+            <h5 class="link-header">Quick Links</h5>
+            <a href="#" class="link-details">Home</a>
+            <a href="#" class="link-details">About Us</a>
+            <a href="#" class="link-details">Bags</a>
+            <a href="#" class="link-details">Contact us</a>
+          </div>
+          <div class="col-md-4">
+            <h5 class="link-header">Newsletter</h5>
+            <form>
+              <input class="enter-email" type="text" placeholder="Enter Email Address" size="22">
+            </form>
+            <button class="subscribe">Subscribe</button>
+          </div>
+          <div class="col-md-5 right-side">
+            <h5 class="link-header">Contact Info</h5>
+            <ul class="contact-list">
+              <li class="contact-details">
+                <img src="assets/images/location-icon.png" alt="location-icon" class="contact-image">
+                <span class="location">1234 Some St San Francisco, CA 94102, US 1.800.123.4567</span>
+              </li>
+              <li class="contact-details">
+                <img src="assets/images/phone-icon.png" alt="phone-icon" class="contact-image">
+                <span>(123) 456 78 90</span>
+              </li>
+              <li class="contact-details">
+                <img src="assets/images/envelop-icon.png" alt="envelop-icon" class="contact-image">
+                <span>info@bags.com</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <p class="copyright">Copyright &copy; Bags 2019</p>
     </footer>
-
     <script>
       var content = document.getElementById("search_content");
       function searchFunction() {
@@ -260,6 +253,5 @@
         }
       }
     </script>
-
   </body>
 </html>

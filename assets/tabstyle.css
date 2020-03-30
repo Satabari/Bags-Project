@@ -25,14 +25,13 @@
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
     order: 2;
-    margin: 0px 5px;
   }
   .navbar {
-      padding: 0px;
-      background-color: #FFFFFF;
-      justify-content: center;
-      height: 40px;
-      margin: 5px auto;
+    padding: 0px;
+    background-color: #FFFFFF;
+    justify-content: center;
+    height: 40px;
+    margin: 5px auto;
   }
   #navbar_supported_content {
     margin: 0px;
@@ -43,7 +42,7 @@
     width: 100%;
     border-bottom: 0px;
     justify-content: space-between;
-    margin: 0px 5px;
+    margin: 0px;
   }
   .nav-item {
     display: inline-block;
@@ -71,27 +70,26 @@
     font-size: 12px;
     padding: 3px 10px;
   }
-  .content-close{
-    display: none;
-  }
-  .content-open{
-    display: none;
-  }
-  .drop-down{
-    display: none;
-  }
   .border-header {
     display: none;
   }
+  .dropdown{
+    display: none;
+  }
   .banner{
-    height: 300px;
+    height: 305px;
     margin: 10px 20px 0 20px;
-    padding-left: 15px;
     background-color: #F2F2F2;
+  }
+  .banner-row{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
   }
   .banner-left {
     padding-right: 10px;
-    height: 300px;
+    height: 305px;
   }
   .text-block{
     top: 45%;
@@ -99,7 +97,7 @@
   }
   .banner-image {
     background: url("./images/left-banner.png") no-repeat center/cover;
-    height: 300px;
+    height: 305px;
   }
   .New-Collection{
     font-size: 12px;
@@ -111,7 +109,8 @@
     border: 2px solid #964B00;
     background-color: #FFFFFF;
     padding: 0px;
-    height: 300px;
+    height: 305px;
+    margin-left: 10px;
   }
   .list-head{
     padding: 2px 0px 3px 10px;
@@ -133,26 +132,36 @@
     list-style: none;
   }
   .list-image{
-    padding: 0px 5px 0px 8px;
-  }
-  #first_list{
-    padding: 5px 0px 5px 8px;
+    padding: 0px 10px 0px 2px;
   }
   #no_border{
     border-bottom: 0px;
-  }
-  .social-image {
-    display: flex;
   }
   .follow-heading{
     font-size: 15px;
     padding-bottom: 5px;
   }
+  .social-media{
+    padding: 2px 10px 5px 10px;
+    box-shadow:  0px 4px 4px #A6A6A6;
+  }
+  .follow-row{
+    display: flex;
+    flex-direction: row;
+  }
   .product-section{
-    margin-top: 50px;
+    margin-top: 50px auto 0px;
+    padding: 0px;
   }
   .sales-product{
     padding: 0;
+  }
+  .under-line{
+    font-size: 20px;
+  }
+  .product-row{
+    display: flex;
+    flex-direction: row;
   }
   .product-list {
     margin: 20px 0px;
@@ -184,6 +193,8 @@
   .before-footer{
     display: flex;
     font-size: 10px;
+    margin: 0px auto;
+    padding: 0px;
   }
   .link-details {
     display: block;

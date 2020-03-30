@@ -9,10 +9,10 @@ body{
 .container-fluid{
   padding: 0px;
 }
-.container{
+/* .container{
   padding: 0px;
   margin: auto;
-}
+} */
 .navbar {
   background-color: #000000;
   padding: 20px 0;
@@ -147,15 +147,15 @@ body{
 }
 .banner {
   padding-left: 0px;
-  padding-right: 15px;
+  padding-right: 0px;
   width: auto;
   margin: 20px 15px 20px 15px;
   height: 180px;
   background-color: #F2F2F2;
 }
 .banner-left{
-  padding-left: 25px;
-  padding-right: 0;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 .banner-image {
   background: url("./images/left-banner.png") no-repeat top/cover;
@@ -182,17 +182,14 @@ body{
   position: fixed;
   top: 20%;
   right: 0px;
+  padding: 2px 10px 5px 25px;
   background-color: #F2F2F2;
-  box-shadow: 1px 2px #666666;
+  box-shadow: 2px 2px #A6A6A6;
   z-index: 3;
 }
 .social-media a {
   display: flex;
-  padding: 2px 10px 5px 10px;
   transition: all 0.3s ease;
-}
-.image-follow{
-  width: 32px;
 }
 .follow-heading{
   background-color: #F2F2F2;
@@ -200,6 +197,9 @@ body{
   font-size: 12px;
   text-align: center;
   color: #964B00;
+}
+.image-follow{
+  width: 32px;
 }
 .product-section{
   margin-top: 50px;
@@ -325,7 +325,7 @@ body{
   margin-bottom: 10px;
   padding: 0px;
 }
-.footer{
+.copyright{
   background-color: #000000;
   color: #FFFFFF;
   font-size: 12px;
