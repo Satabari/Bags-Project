@@ -53,7 +53,7 @@
     font-size: 14px;
     line-height: 35px;
   }
-	.before-footer{
+	.before-copyright{
 		font-size: 12px;
 	}
 	.link-header{
@@ -82,7 +82,7 @@
 		padding-right: 10px;
 	}
 	.banner-right{
-		margin-left: 10px;
+		margin-left: 8px;
 	}
 	.bag-image{
 		min-width: 275px;
@@ -96,9 +96,6 @@
 }
 @media (min-width: 1500px) {
 
-	.banner-row{
-		margin: auto;
-	}
 	.banner-left{
 		padding-right: 20px;
 	}
@@ -113,11 +110,5 @@
 		min-width: 270px;
 		width: auto;
 		padding: 28px 5px;
-	}
-}
-@media (min-width: 1900px){
-	.banner{
-	  margin-left: auto;
- 	  margin-right:  auto;
 	}
 }

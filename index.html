@@ -24,14 +24,8 @@
     <header class="nav-and-logo">
       <div class="black-line">
         <nav class="navbar navbar-expand-md nav-content container">
-          <button 
-            class="navbar-toggler navbar-toggler-icon" 
-            type="button" 
-            data-toggle="collapse"
-            data-target="#navbar_supported_content" 
-            aria-controls="navbar_supported_content"
-            aria-expanded="false" 
-            aria-label="Toggle navigation">
+          <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbar_supported_content" 
+          aria-controls="navbar_supported_content" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon-one"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbar_supported_content">
@@ -51,7 +45,7 @@
               <li class="nav-item last-nav">
                 <form class="form-inline my-0 my-lg-0">
                   <input class="form-control" type="search" placeholder="Search for bags" aria-label="Search">
-                  <input type="image" src="assets/images/search-icon.png" alt="search-icon" class="search-icon" id="search_icon1">
+                  <img src="assets/images/search-icon.png" alt="search-icon" class="search-icon">
                 </form>
               </li>
             </ul>
@@ -59,14 +53,8 @@
         </nav>
       </div>
       <div class="row logo">
-        <div class="column">
-          <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
-        </div>
-        <div class="column" id="search">
-          <form>
-            <input type="image" src="assets/images/search-icon.png" alt="submit" class="search-icon" onclick="searchFunction()">
-          </form>
-        </div>
+        <img src="assets/images/logo.png" alt="bag-logo" class="bag-logo">
+        <img src="./assets/images/search-icon.png" alt="submit" class="search-icon" id="search" onclick="searchFunction()">
       </div>
       <hr class="border-header">
     </header>
@@ -75,7 +63,7 @@
       <div class="drop-contain">
         <div class="content-close" id="search_content">
           <form class="search-form">
-            <input class="search-bar" type="text" size="20" placeholder="Search for bags">
+            <input class="search-bar" type="text" size="18" placeholder="Search for bags">
           </form>
         </div>
       </div>
@@ -84,12 +72,12 @@
           <span class="button-name">Bags Collection</span>
         </button>
         <div class="dropdown-menu">
-          <button class="dropdown-item" type="button">Lorem ipsum dolor</button>
-          <button class="dropdown-item" type="button">Lorem ipsum dolor</button>
-          <button class="dropdown-item" type="button">Lorem ipsum dolor</button>
-          <button class="dropdown-item" type="button">Lorem dolor</button>
-          <button class="dropdown-item" type="button">Lorem ipsum dolor</button>
-          <button class="dropdown-item" type="button">Lorem lorem ipsum dolor</button>
+          <button class="dropdown-item" type="button"><span> ipsum dolor </span></button>
+          <button class="dropdown-item" type="button"> <span> Lorem ipsum dolor</span></button>
+          <button class="dropdown-item" type="button"> <span> Lorem ipsum dolor</span></button>
+          <button class="dropdown-item" type="button"> <span> Lorem dolor</span></button>
+          <button class="dropdown-item" type="button"> <span> Lorem ipsum dolor</span></button>
+          <button class="dropdown-item" type="button"> <span> Lorem lorem ipsum dolor</span></button>
         </div>
       </div>
     </section>
@@ -139,19 +127,19 @@
     </section>
     <section class="social-media">
       <h6 class="follow-heading">Follow Us</h6>
-        <div class="follow-row">
-          <a href=# target="_blank"><img src="assets/images/fb.png" ></a>
-          <a href=# target="_blank"><img src="assets/images/twitter.png"></a>
-        </div>
-        <div class="follow-row">
-          <a href=# target="_blank"><img src="assets/images/google-plus.png" ></a>
-          <a href=# target="_blank"><img src="assets/images/skype.png"></a>
-        </div>
+      <div class="follow-row">
+        <a href=# target="_blank"><img src="assets/images/fb.png" alt="" ></a>
+        <a href=# target="_blank"><img src="assets/images/twitter.png" alt=""></a>
+      </div>
+      <div class="follow-row">
+        <a href=# target="_blank"><img src="assets/images/google-plus.png" alt="" ></a>
+        <a href=# target="_blank"><img src="assets/images/skype.png" alt=""></a>
+      </div>
     </section>
     <section class="product-section container">
       <div class="sales-product">
         <h3 class="under-line"> Sales Products </h3>
-        <h6 class="grey-line"></h6>
+        <hr class="grey-line">
       </div>
       <div class="product-row">
         <div class="product-list col-12 col-md-3">
@@ -205,8 +193,8 @@
       </div>
     </section>
     <footer class="footer">
-      <section class="before-footer-portion">
-        <div class="before-footer container">
+      <section class="three-parts">
+        <div class="before-copyright container">
           <div class="col-md-3">
             <h5 class="link-header">Quick Links</h5>
             <a href="#" class="link-details">Home</a>
@@ -219,7 +207,7 @@
             <form>
               <input class="enter-email" type="text" placeholder="Enter Email Address" size="22">
             </form>
-            <button class="subscribe">Subscribe</button>
+            <button class="subscribe"><span> Subscribe </span></button>
           </div>
           <div class="col-md-5 right-side">
             <h5 class="link-header">Contact Info</h5>
@@ -242,6 +230,7 @@
       </section>
       <p class="copyright">Copyright &copy; Bags 2019</p>
     </footer>
+    
     <script>
       var content = document.getElementById("search_content");
       function searchFunction() {

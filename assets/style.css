@@ -9,10 +9,6 @@ body{
 .container-fluid{
   padding: 0px;
 }
-/* .container{
-  padding: 0px;
-  margin: auto;
-} */
 .navbar {
   background-color: #000000;
   padding: 20px 0;
@@ -59,8 +55,7 @@ body{
 .nav-item form{
   margin-right: 5px;
 }
-.border-header { 
-  display: block;
+.border-header {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-left: 15px;
@@ -70,17 +65,18 @@ body{
 }
 .logo{
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 5px;
+  padding: 0px 12px;
 }
-.column{
-  padding-right: 15px;
-  padding-left: 15px;
+.dropdown{
+  margin: 0px 0px;
 }
 .drop-contain{
   margin: 0px;
-  padding: 10px 15px;
+  padding: 10px 0px;
   position: relative;
 }
 .content-close
@@ -93,23 +89,17 @@ body{
   z-index: 1;
   margin: -5px 0px 5px 0px;
   width: 100%;
-  padding: 0px 10px;
-  margin-left: -10px;
-  margin-right: -10px;
+  padding: 0px 15px;
 }
 .search-form{
   border: 2px solid #F2F2F2; 
   background-color: #FFFFFF;
-  justify-content: center;
   margin: 0px;
 }
 .search-bar{
   display: inline-flex;
   padding: 8px;
   border: none;
-}
-.dropdown{
-  margin: 0px 0px;
 }
 .drop-down{
   background-color: #964B00;
@@ -153,6 +143,9 @@ body{
   height: 180px;
   background-color: #F2F2F2;
 }
+.banner-row{
+  padding: 0px;
+}
 .banner-left{
   padding-left: 0px;
   padding-right: 0px;
@@ -182,7 +175,7 @@ body{
   position: fixed;
   top: 20%;
   right: 0px;
-  padding: 2px 10px 5px 25px;
+  padding: 2px 10px 5px 10px;
   background-color: #F2F2F2;
   box-shadow: 2px 2px #A6A6A6;
   z-index: 3;
@@ -203,26 +196,29 @@ body{
 }
 .product-section{
   margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 .sales-product{
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
 }
 .under-line{
   display: inline-block;
   font-size: 15px;
+  padding-left: 5px;
   border-bottom: 2px solid #964B00;
   margin-bottom: 0px;
 }
 .grey-line{
-  border-top: 1px solid #F2F2F2;
+  border-top: 2px solid #D3D3D3;
   margin-top: -2px;
 }
 .product-list{
   position: relative;
   margin: 20px 0px 30px;
   display: flex;
-  padding: 0px 5px;
+  /* padding: 0px 5px; */
   justify-content: center;
   align-content: center;
 }
@@ -271,12 +267,15 @@ body{
 .information-details2{
   display: none;
 }
-.before-footer-portion{
+.three-parts{
   background-color: #964B00;
 }
-.before-footer{
+.before-copyright{
   color: #FFFFFF;
   font-size: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
 }
 .link-header{
   margin-top: 10px;
