@@ -31,7 +31,8 @@ body{
   position: absolute;
   right: 20px;
   font-size: 23px;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 29' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("./images/mob-menu.png");
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 29' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); */
 }
 .nav-item {
   background-color: #964B00;
@@ -223,7 +224,7 @@ body{
   font-size: 30px;
 }
 .information-details1{
-  padding: 5px 5px;
+  padding: 5px;
   font-size: 14px;
   line-height: 35px;
   margin: 20px 5px 50px 5px;
@@ -290,17 +291,14 @@ body{
   cursor: pointer;
   font-weight: bold;
 }
-.contact-list {
-  list-style-type: none;
-  margin: 0;
-}
 .contact-details{
   padding: 10px 0px;
+  display: flex;
+  align-items: center;
 }
 .contact-image{
   float: left;
   margin-right: 8px;
-  margin-bottom: 10px;
   padding: 0px;
 }
 .copyright{

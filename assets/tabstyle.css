@@ -192,20 +192,12 @@
   }
   .link-details {
     display: block;
-    font-weight: normal;
-    padding: 5px 0px;
+    padding: 8px 0px;
   }
   .enter-email{
     margin-top: 12px;
   }
-  .contact-details{
-    align-items: center;
-  }
   .location{
     font-size: 8px;
   }
-  .contact-image{
-    margin-right: 5px;
-    margin-bottom: 0px;
-    }
 }
