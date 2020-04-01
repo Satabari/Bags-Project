@@ -2,8 +2,7 @@
 
   .nav-and-logo{
     display: flex;
-    flex-direction: column;
-    padding: 0 20px; 
+    flex-direction: column; 
   }
   .last-nav{
     margin-top: 5px;
@@ -78,15 +77,10 @@
   }
   .banner{
     height: 305px;
-    margin-top: 10px;
-    background-color: #F2F2F2;
-    padding: 0 20px;
   }
   .banner-row{
     display: flex;
     flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
     padding: 0px;
   }
   .banner-left {
@@ -96,10 +90,6 @@
   .text-block{
     top: 45%;
     left: 2%;
-  }
-  .banner-image {
-    background: url("./images/left-banner.png") no-repeat center/cover;
-    height: 305px;
   }
   .New-Collection{
     font-size: 12px;
@@ -139,18 +129,6 @@
   #no_border{
     border-bottom: 0px;
   }
-  .follow-heading{
-    font-size: 15px;
-    padding-bottom: 5px;
-  }
-  .social-media{
-    padding: 2px 10px 5px 10px;
-    box-shadow:  0px 4px 4px #A6A6A6;
-  }
-  .follow-row{
-    display: flex;
-    flex-direction: row;
-  }
   .product-section{
     margin: 50px auto 0px;
     padding: 0px;
@@ -173,6 +151,9 @@
     max-width: 170px;
     padding: 14px 5px;
   }
+  .bag-name, .bag-price{
+    font-size: 12px;
+  }
   .bag-image{
     max-width: 170px;
   }
@@ -192,6 +173,17 @@
     margin: 0 0 50px;
     text-align: center;
   }
+  .social-media{
+    box-shadow:  0px 4px 4px #A6A6A6;
+    padding: 5px 10px;
+  }
+  .follow-heading{
+    font-size: 15px;
+  }
+  .follow-row{
+    display: flex;
+    flex-direction: row;
+  }
   .before-copyright{
     display: flex;
     font-size: 10px;
@@ -205,6 +197,9 @@
   }
   .enter-email{
     margin-top: 12px;
+  }
+  .contact-details{
+    align-items: center;
   }
   .location{
     font-size: 8px;

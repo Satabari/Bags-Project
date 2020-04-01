@@ -20,14 +20,12 @@
     <link rel="stylesheet" href="assets/desktopstyle.css">
   </head>
 
-  <body class="container-fluid">
+  <body class="container-fluid full-content">
     <header class="nav-and-logo">
       <div class="black-line">
-        <nav class="navbar navbar-expand-md nav-content container">
+        <nav class="navbar navbar-expand-md nav-content container-md">
           <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbar_supported_content" 
-          aria-controls="navbar_supported_content" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon-one"></span>
-          </button>
+          aria-controls="navbar_supported_content" aria-expanded="false" aria-label="Toggle navigation"></button>
           <div class="collapse navbar-collapse" id="navbar_supported_content">
             <ul class="navbar-nav">
               <li class="nav-item">
@@ -83,13 +81,12 @@
     </section>
     <section class="banner">
       <div class="container banner-row">
-        <div class="col-md-8 banner-left">
-          <figure class="banner-image"></figure> 
-          <div class="text-block">
+        <figure class="col-md-8 banner-left">
+          <figcaption class="text-block">
             <h6 class="New-Collection">NEW COLLECTION</h6>
             <h4 class="Delicacy">Delicacy</h4>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
         <div class="col-md-4 banner-right">
           <h6 class="list-head">Bags Collection</h6>
           <ul>
@@ -125,61 +122,50 @@
         </div>
       </div>
     </section>
-    <section class="social-media">
-      <h6 class="follow-heading">Follow Us</h6>
-      <div class="follow-row">
-        <a href=# target="_blank"><img src="assets/images/fb.png" alt="" ></a>
-        <a href=# target="_blank"><img src="assets/images/twitter.png" alt=""></a>
-      </div>
-      <div class="follow-row">
-        <a href=# target="_blank"><img src="assets/images/google-plus.png" alt="" ></a>
-        <a href=# target="_blank"><img src="assets/images/skype.png" alt=""></a>
-      </div>
-    </section>
     <section class="product-section container">
       <div class="sales-product">
         <h3 class="under-line"> Sales Products </h3>
         <hr class="grey-line">
       </div>
       <div class="product-row">
-        <div class="product-list col-12 col-md-3">
+        <figure class="product-list col-md-3">
           <img class="bag-image" src="assets/images/bag1.jpg" alt="bag1">
-          <div class="product-details">
+          <figcaption class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$20</h6>
-          </div>
-        </div>
-        <div class="product-list col-12 col-md-3">
+          </figcaption>
+        </figure>
+        <figure class="product-list col-md-3">
           <img class="bag-image" src="assets/images/bag2.jpg" alt="bag2">
-          <div class="product-details">
+          <figcaption class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$40</h6>
-          </div>
-        </div>
-        <div class="product-list col-12 col-md-3">
+          </figcaption>
+        </figure>
+        <figure class="product-list col-md-3">
           <img class="bag-image" src="assets/images/bag3.jpg" alt="bag3">
-          <div class="product-details">
+          <figcaption class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$30</h6>
-          </div>
-        </div>
-        <div class="product-list col-12 col-md-3">
+          </figcaption>
+        </figure>
+        <figure class="product-list col-md-3">
           <img class="bag-image" src="assets/images/bag4.jpg" alt="bag4">
-          <div class="product-details">
+          <figcaption class="product-details">
             <h6 class="bag-name">Lorem Bag</h6>
             <h6 class="bag-price">$30</h6>
-          </div>
-        </div>
+          </figcaption>
+        </figure>
       </div>
-      <div class="information-text">
+      <article class="information-text">
         <h3 class="information-heading"> Lorem ipsum dolor</h3>
-        <p class="information-details1">
+        <blockquote class="information-details1">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed tempor nibh a lacus luctus, an aliquam arcu vulputate.
           Donec id semper nunc. Nullam in condimentum quam.
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-        </p>
-        <p class="information-details2">
+        </blockquote>
+        <blockquote class="information-details2">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           Sed tempor nibh a lacus luctus, ac aliquam arcu vulputate.
           Donec id semper nunc. Nullam in condimentum quam. Lorem ipsum
@@ -189,9 +175,20 @@
           adipiscing elit. Sed tempor nibh a lacus luctus, ac aliquam arcu
           vulputate. Donec id semper nunc.
           Nullam condimentum quam.
-        </p>
-      </div>
+        </blockquote>
+      </article>
     </section>
+    <aside class="social-media">
+      <h6 class="follow-heading">Follow Us</h6>
+      <div class="follow-row">
+        <a href=# target="_blank"><img src="assets/images/fb.png" alt="" class="image-follow" ></a>
+        <a href=# target="_blank"><img src="assets/images/twitter.png" alt="" class="image-follow"></a>
+      </div>
+      <div class="follow-row">
+        <a href=# target="_blank"><img src="assets/images/google-plus.png" alt="" class="image-follow" ></a>
+        <a href=# target="_blank"><img src="assets/images/skype.png" alt="" class="image-follow"></a>
+      </div>
+    </aside>
     <footer class="footer">
       <section class="three-parts">
         <div class="before-copyright container">
@@ -206,15 +203,15 @@
             <h5 class="link-header">Newsletter</h5>
             <form>
               <input class="enter-email" type="text" placeholder="Enter Email Address" size="22">
+              <button class="subscribe"><span> Subscribe </span></button>
             </form>
-            <button class="subscribe"><span> Subscribe </span></button>
           </div>
           <div class="col-md-5 right-side">
             <h5 class="link-header">Contact Info</h5>
             <ul class="contact-list">
               <li class="contact-details">
                 <img src="assets/images/location-icon.png" alt="location-icon" class="contact-image">
-                <span class="location">1234 Some St San Francisco, CA 94102, US 1.800.123.4567</span>
+                <address class="location m-0">1234 Some St San Francisco, CA 94102, US 1.800.123.4567</address>
               </li>
               <li class="contact-details">
                 <img src="assets/images/phone-icon.png" alt="phone-icon" class="contact-image">
@@ -222,7 +219,7 @@
               </li>
               <li class="contact-details">
                 <img src="assets/images/envelop-icon.png" alt="envelop-icon" class="contact-image">
-                <span>info@bags.com</span>
+                <a>info@bags.com</a>
               </li>
             </ul>
           </div>

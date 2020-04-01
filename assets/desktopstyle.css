@@ -21,9 +21,9 @@
 	.banner-row{
 		margin: auto;
 	}
-	.banner-left,	.banner-image,.banner-right{
-      height: 410px;
-		}	
+	.banner-left,.banner-right{
+    height: 410px;
+	}	
   .text-block{
     top: 50%;
   }
@@ -78,11 +78,16 @@
 
 @media (min-width: 1200px) {
 
+	.banner,.banner-left,.banner-right{
+    height: 460px;
+	}	
+
 	.banner-left{
 		padding-right: 10px;
 	}
 	.banner-right{
 		margin-left: 8px;
+		align-items: baseline;
 	}
 	.bag-image{
 		min-width: 275px;
