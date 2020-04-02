@@ -75,17 +75,15 @@
   .dropdown{
     display: none;
   }
-  .banner{
+  .banner, .banner-right{
     height: 305px;
   }
-  .banner-row{
-    display: flex;
-    flex-direction: row;
+  .banner-container{
     padding: 0px;
   }
-  .banner-left {
-    padding-right: 10px;
+  .banner-left{
     height: 305px;
+    right: 5px;
   }
   .text-block{
     top: 45%;
@@ -101,8 +99,6 @@
     border: 2px solid #964B00;
     background-color: #FFFFFF;
     padding: 0px;
-    height: 305px;
-    margin-left: 10px;
   }
   .list-head{
     padding: 2px 0px 3px 10px;
@@ -138,10 +134,6 @@
   }
   .under-line{
     font-size: 20px;
-  }
-  .product-row{
-    display: flex;
-    flex-direction: row;
   }
   .product-list {
     margin: 20px 0px;
@@ -185,7 +177,6 @@
     flex-direction: row;
   }
   .before-copyright{
-    display: flex;
     font-size: 10px;
     margin: 0px auto;
     padding: 0px;

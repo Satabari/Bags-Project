@@ -21,7 +21,11 @@
 	.banner-row{
 		margin: auto;
 	}
-	.banner-left,.banner-right{
+	.banner-left{
+		height: 410px;
+		right: 8px;
+	}
+	.banner-right{
     height: 410px;
 	}	
   .text-block{
@@ -67,27 +71,14 @@
 	}
 }
 
-@media (min-width: 1024px) {
-	.banner-left{
-		padding-right: 10px;
-	}
-	.banner-right{
-		margin-left: 12px;
-	}
-}
-
 @media (min-width: 1200px) {
 
-	.banner,.banner-left,.banner-right{
+	.banner,.banner-right{
     height: 460px;
-	}	
-
-	.banner-left{
-		padding-right: 10px;
 	}
-	.banner-right{
-		margin-left: 8px;
-		align-items: baseline;
+	.banner-left{
+		height: 460px;
+		right: 12px;
 	}
 	.bag-image{
 		min-width: 275px;
@@ -101,12 +92,6 @@
 }
 @media (min-width: 1500px) {
 
-	.banner-left{
-		padding-right: 20px;
-	}
-	.banner-right{
-		margin-left: 0px;
-	}
 	.bag-image{
 		min-width: 270px;
 		width:auto;
